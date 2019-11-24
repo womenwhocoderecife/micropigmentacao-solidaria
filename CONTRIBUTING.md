@@ -26,13 +26,21 @@ $ git add name-file1 name-file2
 $ git commit -m "write a short and significant sentence"
 ```
 
-**6 -** Update the local repository before send your contribution:
+**6 -** Update master branch of the local repository before send your contribution:
 
 ```sh
-$ git pull -r
+$ git checkout master
+$ git pull
 ```
 
-**7 -** Send your contribution to a online repository. Do this every day you work:
+**7 -** Update your branch with the new commits from online repository:
+
+```sh
+$ git checkout name-of-new-branch
+$ git rebase master
+```
+
+**7 -** Back to your branch and send your contribution to a online repository. Do this every day you work:
 
 ```sh
 $ git push origin name-of-new-branch
