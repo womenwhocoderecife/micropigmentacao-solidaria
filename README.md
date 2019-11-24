@@ -5,7 +5,6 @@
 **0 -** install the basic dependencies
 
 - [NodeJS](https://nodejs.org/en/)
-- [Npm](https://npmpkg.com/en/docs/install#mac-stable)
 
 **1 -** Clone the project and install the dependencies:
 
