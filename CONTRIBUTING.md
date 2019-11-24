@@ -40,16 +40,16 @@ $ git checkout name-of-new-branch
 $ git rebase master
 ```
 
-**7 -** Back to your branch and send your contribution to a online repository. Do this every day you work:
+**8 -** Send your contribution to online repository. Do this every day you work:
 
 ```sh
 $ git push origin name-of-new-branch
 ```
 
-**8 -** Go to [online repository](https://github.com/womenwhocoderecife/micropigmentacao-solidaria) and click on button "Compare and pull request"
+**9 -** Go to [online repository](https://github.com/womenwhocoderecife/micropigmentacao-solidaria) and click on button "Compare and pull request"
 ![pullRequest]
 [pullRequest]: https://github.com/womenwhocoderecife/micropigmentacao-solidaria/Assets/pull-request.jpg "Repository menu with a pull request suggest"
 
-**9 -** Click on button "BLA" to request the review
+**10 -** Click on button "BLA" to request the review
 ![review]
 [review]: "Box"
