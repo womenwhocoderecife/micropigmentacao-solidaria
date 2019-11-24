@@ -5,29 +5,29 @@
 **0 -** install the basic dependencies
 
 - [NodeJS](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
+- [Npm](https://npmpkg.com/en/docs/install#mac-stable)
 
 **1 -** Clone the project and install the dependencies:
 
 ```sh
 $ git clone https://github.com/womenwhocoderecife/micropigmentacao-solidaria
 $ cd micropigmentacao-solidaria/
-$ yarn install
+$ npm install
 ```
 
 **2 -** Start development mode:
 
 ```sh
-$ yarn start
+$ npm start
 ```
 
 Go to: [http://localhost:3000/](http://localhost:3000/)
 
 ## Tasks available
 
-- `$ yarn start`: Start the development environment server.
-- `$ yarn build`: Build for production.
-- `$ yarn deploy`: Build for deploy.
+- `$ npm start`: Start the development environment server.
+- `$ npm build`: Build for production.
+- `$ npm deploy`: Build for deploy.
 
 ## Contributing
 
