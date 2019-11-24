@@ -1,5 +1,7 @@
 # Micropigmentação solidária
 
+This a pro bono project developed in [Women DEV Projects](https://womendevprojects.com.br/) with the objective of to pratice the knowledge learned during meetups. 
+
 ## Run the project local
 
 **0 -** install the basic dependencies
@@ -30,8 +32,7 @@ Go to: [http://localhost:3000/](http://localhost:3000/)
 
 ## Contributing
 
-Find on our [issues](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/issues/) the next steps of the project ;)
-Want to contribute? [Follow these recommendations](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/blob/master/CONTRIBUTING.md).
+Want to contribute? [Follow these recommendations](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/CONTRIBUTING.md).
 
 ## History
 
