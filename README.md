@@ -33,7 +33,8 @@ Go to: [http://localhost:3000/](http://localhost:3000/)
 ## Contributing
 
 Find on our [issues](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/issues/) the next steps of the project ;)
-Want to contribute? [Follow these recommendations](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/CONTRIBUTING.md).
+Want to contribute? [Follow these recommendations](https://github.com/womenwhocoderecife/micropigmentacao-solidaria/blob/master/CONTRIBUTING.md).
+
 
 ## History
 
