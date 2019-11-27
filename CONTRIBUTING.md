@@ -53,8 +53,7 @@ $ git push origin name-of-new-branch
 ```
 
 **10 -** Go to [online repository](https://github.com/womenwhocoderecife/micropigmentacao-solidaria) and click on button "Compare and pull request"
-![pullRequest]
-[pullRequest]: https://github.com/womenwhocoderecife/micropigmentacao-solidaria/assets/pull-request.png "Repository menu with a pull request suggest"
+![pullRequest](https://raw.githubusercontent.com/womenwhocoderecife/micropigmentacao-solidaria/master/assets/pull-request.png)
 
 **11 -** Make the pull request and let the reviewer know (click on the highlighted buttons)
 ![review]
