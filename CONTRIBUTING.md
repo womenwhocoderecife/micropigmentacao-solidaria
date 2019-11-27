@@ -56,5 +56,4 @@ $ git push origin name-of-new-branch
 ![pullRequest](https://raw.githubusercontent.com/womenwhocoderecife/micropigmentacao-solidaria/master/assets/pull-request.png)
 
 **11 -** Make the pull request and let the reviewer know (click on the highlighted buttons)
-![review]
-[review]: https://github.com/womenwhocoderecife/micropigmentacao-solidaria/Assets/review.png 
+![review](https://raw.githubusercontent.com/womenwhocoderecife/micropigmentacao-solidaria/master/assets/review.png)
