@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import about from "../assets/img/about.png";
 
 const About = () => <section className="about">
 
@@ -21,13 +22,11 @@ const About = () => <section className="about">
 
     </div>
 
-    <div className="about-image">
-
-        <div className="about-image-src">
-            <img src="..\..\assets\about.png" />
-        </div>
+    <figure className="about-image">
         
-    </div>
+            <img className="about-image-src" src={about} alt="Três mulheres sorrindo" />
+
+    </figure>
 </section>;
 
 export default About;
