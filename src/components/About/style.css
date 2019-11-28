@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
 
+:root {
+  --color-background-image: #430307;
+  --color-h2: #430307;
+  --color-p: #8E6769;
+  --size-h2: 50px;
+  --size-p: 16px;
+  --font-title: 'Nunito', sans-serif;
+  --font-p: 'Open Sans', sans-serif;
+}
+
 .about {
   background: green;
 }
