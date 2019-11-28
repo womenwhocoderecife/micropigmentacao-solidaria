@@ -19,7 +19,7 @@ const About = () => <section className="about">
     </div>
     <div className="about-image">
         <div className="about-image-src">
-            
+            <img src="..\..\assets\about.png" />
         </div>
     </div>
 </section>;
