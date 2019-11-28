@@ -25,3 +25,9 @@
   justify-content: space-evenly;
 }
 
+.about__text__title{
+  font-family: var(--font-title);
+  font-size: var(--size-h2);
+  color: var(--color-h2);
+}
+
