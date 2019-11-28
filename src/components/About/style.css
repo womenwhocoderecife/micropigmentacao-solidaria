@@ -15,6 +15,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: stretch;
   margin: 111 0 px;
 }
 
