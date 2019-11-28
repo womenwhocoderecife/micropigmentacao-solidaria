@@ -18,4 +18,9 @@
   margin: 111 0 px;
 }
 
+.about__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
