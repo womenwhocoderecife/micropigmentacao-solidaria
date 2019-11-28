@@ -17,7 +17,11 @@ const About = () => <section className="about">
             </p>
         </div>
     </div>
-    <div className="about-image"></div>
+    <div className="about-image">
+        <div className="about-image-src">
+            
+        </div>
+    </div>
 </section>;
 
 export default About;
