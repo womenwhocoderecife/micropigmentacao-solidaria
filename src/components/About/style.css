@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
   margin: 111 0 px;
 }
@@ -46,7 +46,5 @@
 .about__image__src{
   width: 100%;
   height: 100%;
-  border: 0px;
-  margin: 0px;
   object-fit: cover;
 }
