@@ -22,6 +22,7 @@
 .about__text{
   display: flex;
   width: 484px;
+  margin: 133px 50px 101px 101px;
   flex-direction: column;
   justify-content: space-evenly;
 }
