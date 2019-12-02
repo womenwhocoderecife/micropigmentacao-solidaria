@@ -21,6 +21,7 @@
 
 .about__text{
   display: flex;
+  width: 484px;
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -29,6 +30,14 @@
   font-family: var(--font-title);
   font-size: var(--size-h2);
   color: var(--color-h2);
+}
+
+.about__text__paragraph{
+  font-family: var(--font-p);
+  font-size: var(--size-p);
+  color: var(--color-p);
+  text-align: justify;
+  line-height: 2.0;
 }
 
 .about__image{
