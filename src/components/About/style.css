@@ -31,3 +31,12 @@
   color: var(--color-h2);
 }
 
+.about__image{
+  background: var(--color-background-image);
+  width: 803px;
+  height: 619px;
+  padding: 83px 0px 125px 125px;
+  border: 0px;
+  margin: 0px;
+}
+
