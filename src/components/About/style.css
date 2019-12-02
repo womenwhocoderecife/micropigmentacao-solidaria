@@ -30,6 +30,7 @@
   font-family: var(--font-title);
   font-size: var(--size-h2);
   color: var(--color-h2);
+  text-align: left;
 }
 
 .about__text__paragraph{
