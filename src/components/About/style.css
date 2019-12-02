@@ -60,6 +60,28 @@
   object-fit: cover;
 }
 
+@media (max-width: 900px) {
+  .about__text{
+    width: 840px;
+    margin: 50px 30px;
+  }
+
+  .about__text__title
+    text-align: center;
+  }
+
+  .about__image{
+    width: 840px;
+    height: 530px;
+    padding: 45px 30px;
+  }
+
+  .about__image__src{
+    width: 80%;
+    height: 80%;
+  }  
+}
+
 @media (max-width: 375px) {
   .about__text{
     width: 315px;
