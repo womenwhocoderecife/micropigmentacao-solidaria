@@ -59,3 +59,25 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 375px) {
+  .about__text{
+    width: 315px;
+    margin: 50px 30px;
+  }
+
+  .about__text__title
+    text-align: center;
+  }
+
+  .about__image{
+    width: 315px;
+    height: 200px;
+    padding: 45px 30px;
+  }
+
+  .about__image__src{
+    width: 60%;
+    height: 60%;
+  }  
+}
