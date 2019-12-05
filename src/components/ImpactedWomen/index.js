@@ -14,7 +14,7 @@ const ImpactedWomen = () => (
          </div>
          <div class = "content">
            <h2 className = "name">Nome</h2>
-           <p className = "about">texto</p>
+           <p className = "History">texto</p>
          </div>
        </div>
      </div>  
@@ -26,7 +26,7 @@ const ImpactedWomen = () => (
          </div>
          <div class = "content">
            <h2 className= "name">Nome</h2>
-           <p className="about">texto</p>
+           <p className="History">texto</p>
          </div>
        </div>
      </div>
