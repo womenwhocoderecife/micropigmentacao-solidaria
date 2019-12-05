@@ -8,7 +8,7 @@ const ImpactedWomen = () => (
   
      <h1 className = "title">Mulheres Impactadas</h1>
      <div class= "Depoimento1">
-       <div class = "container1">
+       <div class = "container">
          <div>
            <img className= "image" src = "/home/keila/Documentos/github/micropigmentacao-solidaria/assets/image.png"/>
          </div>
@@ -20,7 +20,7 @@ const ImpactedWomen = () => (
      </div>  
 
      <div class= "Depoimento2">
-       <div class = "container2">
+       <div class = "container">
          <div>
            <img className= "image" src = {"/home/keila/Documentos/github/micropigmentacao-solidaria/assets/jane.png"}/>
          </div>
