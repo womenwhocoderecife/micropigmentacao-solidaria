@@ -12,7 +12,7 @@
   color: #430307;
 }
 
-.container1{
+.container{
     display:flex;
 
     justify-content: space-around;
@@ -21,8 +21,22 @@
     margin-right: 20%;
 }
 
-.image1{
+.image{
   width: 525px;
   height: 346px;
   background: rgba(142, 103, 105, 0.5);
 }
+
+.name{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height-step: 31px;
+
+  color: #430307;
+}
+
+
+
+
