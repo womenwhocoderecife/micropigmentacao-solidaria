@@ -1,3 +1,13 @@
 .ImpactedWomen {
   background: #24292e;
+  display: flex;
+}
+
+
+.title{
+  font-family: munito;
+  font-style: normal;
+  font-size:50px;
+  text-align: center;
+  color: #430307;
 }
