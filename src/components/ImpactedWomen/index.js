@@ -6,7 +6,7 @@ import "./style.css";
 const ImpactedWomen = () => (
  <impactedWomen className="impactedWomen">
    <div class ="Container">
-     <h1>Mulheres Impactadas</h1>
+     <h1 className = "title">Mulheres Impactadas</h1>
      <div class= "Depoimento1">
        <div class = "container">
          <div>
