@@ -10,11 +10,11 @@ const ImpactedWomen = () => (
      <div class= "Depoimento1">
        <div class = "container1">
          <div>
-           <img className= "image1" src = "/home/keila/Documentos/github/micropigmentacao-solidaria/assets/image.png"/>
+           <img className= "image" src = "/home/keila/Documentos/github/micropigmentacao-solidaria/assets/image.png"/>
          </div>
          <div class = "content">
-           <h2 className = "name1">Nome</h2>
-           <p className = "about1">texto</p>
+           <h2 className = "name">Nome</h2>
+           <p className = "about">texto</p>
          </div>
        </div>
      </div>  
@@ -22,11 +22,11 @@ const ImpactedWomen = () => (
      <div class= "Depoimento2">
        <div class = "container2">
          <div>
-           <img className= "image2" src = {"/home/keila/Documentos/github/micropigmentacao-solidaria/assets/jane.png"}/>
+           <img className= "image" src = {"/home/keila/Documentos/github/micropigmentacao-solidaria/assets/jane.png"}/>
          </div>
          <div class = "content">
-           <h2 className= "name2">Nome</h2>
-           <p className="about2">texto</p>
+           <h2 className= "name">Nome</h2>
+           <p className="about">texto</p>
          </div>
        </div>
      </div>
