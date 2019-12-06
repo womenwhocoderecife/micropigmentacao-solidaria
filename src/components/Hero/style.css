@@ -1,3 +1,214 @@
-.hero {
-  background: yellow;
+.hero, .container-hero, h1, a, p {
+  margin: 0%;
+  padding: 0%;
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1440px) {
+
+  *{
+      box-sizing: border-box;
+  }
+  
+  .container-hero{
+      width: 100%;
+      height:850px;
+      padding: 20px;
+      background: rgba(67, 3, 7, 0.4);
+      background-image: url('assets/hero_max.png');
+      background-attachment:fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;    
+  }
+
+  h1{
+      position: absolute;
+      top:270px;
+      font-family: 'Nunito';
+      font-size: 64px;
+      font-style: bold;
+      color: #FFFFFF;
+      margin-left: 7%;
+  
+  }
+  
+  p{
+      position: absolute;
+      top:490px;
+      font-family: 'Open Sans';
+      font-size: 24px;
+      font-style: normal;
+      color: #FFFFFF;
+      margin-left: 7%;
+  
+  
+  
+  }
+  
+  a{
+      position: absolute;
+      top:700px;
+      height: 80px;
+      margin-left: 680px;
+      margin-left: 43%;
+      margin-right: 43%;
+  
+  
+  
+  }
+
+  #scroll{
+      font-family: 'Nunito';
+      font-size: 14px;
+      font-style: semibold;
+      color: #FFFFFF;
+  }
+
+  #icone{
+      width:48px;
+      height:48px;
+      margin-right:20%;
+      margin-left: 20%;
+  }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width:720px) {
+
+  *{
+      box-sizing: border-box;
+  }
+
+  .container-hero{
+      width: 100%;
+      height:850px;
+      padding: 20px;
+      background-color: black;;
+      background-image: url('assets/hero_min.png');
+      background-attachment:fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+
+  h1{
+      position: absolute;
+      top:270px;
+      font-family: 'Nunito';
+      font-size: 64px;
+      font-style: bold;
+      color: #FFFFFF;
+      margin-left: 7%;
+  
+  }
+  
+  a{
+      position: absolute;
+      top:700px;
+      width:96px;
+      height: 80px;
+      margin-left: 680px;
+      margin-left: 35%;
+      margin-right: 43%;
+  
+  
+  
+  }
+
+  #scroll{
+      font-family: 'Nunito';
+      font-size: 14px;
+      font-style: semibold;
+      color: #FFFFFF;
+  }
+  
+  #icone{
+      width:48px;
+      height:48px;
+      margin-right:20%;
+      margin-left: 20%;
+  }
+
+  p{
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      top:490px;
+      font-family: 'Open Sans';
+      font-size: 24px;
+      font-style: normal;
+      color: #FFFFFF;
+      margin-left: 7%;
+      width:400px;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width:1024px) {
+
+  
+  *{
+      box-sizing: border-box;
+  }
+
+  .container-hero{
+      width: 100%;
+      height:850px;
+      padding: 20px;
+      background-color: grey;;
+      background-image: url('assets/hero_medio2.png');
+      background-attachment:fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+
+  h1{
+      position: absolute;
+      top:270px;
+      font-family: 'Nunito';
+      font-size: 64px;
+      font-style: bold;
+      color: #FFFFFF;
+      margin-left: 7%;
+  
+  }
+  
+  a{
+      position: absolute;
+      top:700px;
+      width:96px;
+      height: 80px;
+      margin-left: 680px;
+      margin-left: 43%;
+      margin-right: 43%;
+  
+  
+  
+  }
+
+  #scroll{
+      font-family: 'Nunito';
+      font-size: 14px;
+      font-style: semibold;
+      color: #FFFFFF;
+  }
+
+  p{
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      top:490px;
+      font-family: 'Open Sans';
+      font-size: 24px;
+      font-style: normal;
+      color: #FFFFFF;
+      margin-left: 7%;
+      width:600px;
+  }
+  
+  #icone{
+      width:48px;
+      height:48px;
+      margin-right:20%;
+      margin-left: 20%;
+          
+  }
+      
 }
