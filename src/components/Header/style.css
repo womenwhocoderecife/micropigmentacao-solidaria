@@ -9,11 +9,13 @@
 
 
 .logo {
-	margin: 0;
+	margin-left: 80px;
+
   }
   
   .menu_img {
 	object-fit: contain;
+	width: 140px;
 	}
 	
 
@@ -21,13 +23,19 @@
 /*/-_-_-_-_  Menu  -_-_-_-_/*/
 
 
+
 .menu {
 	flex-grow: 10;
+	margin-right: 106px;
 }
 
-.menu ul {
+.menu_list{
 	display: flex;
+	list-style: none;
 }
+
+
+
 
 .menu li {
 		margin: 0px 10px;
@@ -47,7 +55,7 @@
 }
 
 
-  .menu_list {
+  .menu_list_link {
 	margin: 10px 0 0 0;
 	padding: 0;
 	max-width: 650px;
@@ -81,4 +89,9 @@
 	font-size: 14px;
 	padding: 10px;
 	width: 100%;
+}
+
+.menu_list_link:hover {
+	color: #B76882;
+	border-bottom: 2px solid #430307; 
 }
