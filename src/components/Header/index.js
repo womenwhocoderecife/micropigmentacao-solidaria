@@ -5,14 +5,14 @@ import logo from '../../assets/img/logo.png';
 
 const Header = () =>
 
-    <header class="menu_nav">
-        <div class="logo">
+    <header className="menu_nav">
+        <div className="logo">
             <a href="#inicio">
                 <img className="menu_img" src={logo} alt="Logo Valentes e Bonitas" />
             </a>
         </div>
-        <nav class="menu">
-            <ul>
+        <nav className="menu">
+            <ul className="menu_list">
                 <li className="menu_list_item">
                     <a className="menu_list_link" href="#home"> HOME </a>
                 </li>
