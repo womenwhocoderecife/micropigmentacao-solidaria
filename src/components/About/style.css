@@ -61,7 +61,15 @@
   object-fit: contain;
 }
 
+@media (min-width: 700px) {
+  .about__image{
+    height: 390px;
+  }
 
+  .about__text{
+    margin: 50px;
+  }
+}
 
 /* .about {
   display: flex;
