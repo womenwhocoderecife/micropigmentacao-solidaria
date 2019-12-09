@@ -23,12 +23,13 @@
   h1{
       position: absolute;
       top:270px;
+      width:350px;
+      text-align: left;
       font-family: 'Nunito';
       font-size: 64px;
       font-style: bold;
       color: #FFFFFF;
       margin-left: 7%;
-      border: black solid 2px;
   
   }
   
@@ -40,7 +41,6 @@
       font-style: normal;
       color: #FFFFFF;
       margin-left: 7%;
-      border: black solid 2px;
   }
   
   a{
@@ -88,6 +88,8 @@
   h1{
       position: absolute;
       top:270px;
+      width:350px;
+      text-align: left;
       font-family: 'Nunito';
       font-size: 64px;
       font-style: bold;
@@ -127,6 +129,7 @@
       flex-wrap: wrap;
       position: absolute;
       top:490px;
+      text-align: left;
       font-family: 'Open Sans';
       font-size: 24px;
       font-style: normal;
@@ -157,6 +160,8 @@
   h1{
       position: absolute;
       top:270px;
+      width:350px;
+      text-align: left;
       font-family: 'Nunito';
       font-size: 64px;
       font-style: bold;

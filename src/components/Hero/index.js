@@ -5,11 +5,11 @@ import icone from "./assets/icone_play.png"
 const Hero = () => (
     
     <section class="container-hero">
-            <h1>Bonita é ser <br/>valente</h1>
+            <h1>Bonita é ser valente</h1>
             <p>Lorem ipsum dolor sit amet, consectetur  elit, 
                 sed do eiut <br/>labore et dolore magna aliqua. 
                 Ut enim ad minim veniam.</p>
-        <a href="">
+        <a href="a">
                 <div className='scroll'> Scroll Down </div>
                 <img src= {icone} alt="Icone_rolagem_para_baixo" />
         </a>
