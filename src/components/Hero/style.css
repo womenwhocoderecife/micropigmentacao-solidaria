@@ -50,9 +50,11 @@
         height: 80px;
         margin-left: -7%;
         margin-right: 70%; 
+        text-decoration: none;
+
     }
   
-    #scroll{
+    .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
@@ -105,12 +107,11 @@
         height: 80px;
         margin-left: -15%;
         margin-right: 70%;
-    
-    
-    
+        text-decoration: none;
+
     }
   
-    #scroll{
+    .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
@@ -177,17 +178,15 @@
         height: 80px;
         margin-left: -7%;
         margin-right: 70%;
-    
-    
+        text-decoration: none;
     
     }
   
-    #scroll{
+    .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
-  
     }
   
     p{
@@ -209,8 +208,7 @@
         margin-right:20%;
         margin-left: 20%;
             
-    }
-        
+    }    
   }
 
   
