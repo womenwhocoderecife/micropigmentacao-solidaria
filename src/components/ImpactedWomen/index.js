@@ -26,8 +26,8 @@ const ImpactedWomen = () => <section className="impactedwomen">
            <img src = {woman2}/>
          </div>
          <div class = "content">
-           <h2 className = "name">Nome</h2>
-           <p className = "History">texto</p>
+           <h2 className = "name">Jane</h2>
+           <p className = "History2">Não sabia que era possível fazer a reconstrução de auréola e ficou encantada com o projeto, disse que com essa iniciativa voltou a ter autoestima, a ser mulher, a viver!</p>
          </div>
        </div>
      </div>
