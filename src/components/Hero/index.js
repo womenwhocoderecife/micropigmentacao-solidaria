@@ -15,6 +15,6 @@ const Hero = () => (
         </a>
      </section>   
                 
-)
+);
 
 export default Hero;
