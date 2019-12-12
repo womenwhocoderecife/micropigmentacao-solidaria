@@ -1,4 +1,12 @@
 .ImpactedWomen {
     display: flex;
   }
-  
+
+
+.title{
+    font-family: Nunito;
+    font-style: normal;
+    font-size:50px;
+    text-align: center;
+    color: #430307;
+  }
