@@ -16,3 +16,9 @@
     justify-content: space-around;
     flex-wrap: wrap-reverse;    
 }
+
+.image{
+    width: 525px;
+    height: 346px;
+    background: rgba(142, 103, 105, 0.5);
+  }
