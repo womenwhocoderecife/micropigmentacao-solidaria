@@ -23,7 +23,7 @@ const ImpactedWomen = () => <section className="impactedwomen">
      <div class= "Depoimento1">
        <div class = "container">
          <div>
-           <img className= "image" src = {woman2}/>
+           <img src = {woman2}/>
          </div>
          <div class = "content">
            <h2 className = "name">Nome</h2>
