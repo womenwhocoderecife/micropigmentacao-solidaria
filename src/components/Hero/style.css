@@ -1,5 +1,6 @@
 
-  .hero, .container-hero, h1, a, p {
+  .container_hero, h1, a, p {
+        width: 100%;
         margin: 0%;
         padding: 0%;
       }
@@ -10,7 +11,7 @@
             box-sizing: border-box;
         }
         
-        .container-hero{
+        .container_hero{
             width: 100%;
             height:850px;
             padding: 20px;
