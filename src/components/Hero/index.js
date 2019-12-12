@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import icone from "./assets/icone_play.png"
 
 const Hero = () => <section className="hero">
     <h1>Bonita é ser valente</h1>
