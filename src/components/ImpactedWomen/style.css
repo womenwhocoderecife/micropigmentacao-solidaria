@@ -18,9 +18,11 @@
 }
 
 .image{
+    margin-bottom: 115px;
     width: 525px;
     height: 346px;
-    background: rgba(142, 103, 105, 0.5);
+    background: rgba(67, 3, 7, 0.2);
+    
   }
 
 
