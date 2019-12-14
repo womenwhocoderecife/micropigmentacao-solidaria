@@ -38,7 +38,7 @@
   
   .History{
     width: 360px;
-    height: 152px;
+    
     margin-bottom: 91px;
     font-family: Open Sans;
     font-style: normal;
@@ -51,9 +51,9 @@
     color:#8e6769;
   }
 
-.History2{
+/*.History2{
     width: 360px;
-    height: 116.6;
+    height: 116.6px;
     margin-bottom: 91px;
     font-family: Open Sans;
     font-style: normal;
@@ -66,5 +66,5 @@
     margin-left: 102px;
   
     color:#8e6769;
-}
+}*/
 
