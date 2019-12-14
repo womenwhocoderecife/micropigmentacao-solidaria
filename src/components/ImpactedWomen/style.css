@@ -9,12 +9,15 @@
     font-size:50px;
     text-align: center;
     color: #430307;
+    margin-bottom: 107px;
   }
 
   .container{
     display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;    
+    justify-content: center;
+    flex-wrap: wrap-reverse;  
+    align-items: center;  
+    align-content: center;
 }
 
 .image{
@@ -25,8 +28,16 @@
     
   }
 
+  .content{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+  }
+
 
   .name{
+    width: 240px;
     font-family: Nunito;
     font-style: normal;
     font-weight: 800;
@@ -49,22 +60,8 @@
     text-align: justify;
   
     color:#8e6769;
+    margin-left: 92px;
   }
 
-/*.History2{
-    width: 360px;
-    height: 116.6px;
-    margin-bottom: 91px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size:16px;
-    line-height:30px;
-  
-    text-align: justify;
 
-    margin-left: 102px;
-  
-    color:#8e6769;
-}*/
 
