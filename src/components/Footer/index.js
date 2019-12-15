@@ -79,8 +79,15 @@ const Footer = () => <section className="about">
           </li>
         </ul>
       </div>
-      
+
     </div>
+
+    <hr ClassName="line"></hr>
+
+    <div className="footer__copyright">
+      ©2019 - desenvolvido por Women Dev Projects
+    </div>
+    
 </section>;
 
 export default Footer;
