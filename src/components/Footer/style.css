@@ -95,3 +95,17 @@
   width: 12px;
   height: 12px;
 }
+
+/* Tablet */
+
+@media (min-width: 700px) {
+
+  .footer {
+    align-items: center;
+}
+
+  .footer__container {
+    width: 700px;
+  }
+
+}
