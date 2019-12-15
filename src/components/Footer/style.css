@@ -1,3 +1,8 @@
-.footer {
-  background: pink;
+:root {
+  --color-title: #B76882;
+  --color-item: #8E6769;
+  --size-title: 14px;
+  --size-item: 14px;
+  --font-title: 'Nunito', sans-serif;
+  --font-item: 'Open Sans', sans-serif;
 }
