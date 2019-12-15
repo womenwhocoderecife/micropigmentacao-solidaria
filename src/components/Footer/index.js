@@ -69,6 +69,16 @@ const Footer = () => <section className="about">
         </ul>
       </div>
 
+      <div className="footer__list-contact">
+        <ul className="footer__list">
+          <li className="footer__list__title">CONTATO</li>
+          <li className="footer__list__item">
+            (81)99999-9999 <br />
+            Av General Polidoro, 662 - sala 03. <br />
+            Cidade Universitária - Recife - PE
+          </li>
+        </ul>
+      </div>
       
     </div>
 </section>;
