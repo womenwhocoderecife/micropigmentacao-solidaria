@@ -29,6 +29,46 @@ const Footer = () => <section className="about">
         </ul>
       </div>
 
+      <div className="footer__list-links">
+        <ul className="footer__list">
+          <li className="footer__list__item">
+            <a className="footer__list__title" href="">
+              SOBRE NÓS
+            </a>
+          </li>
+          <li className="footer__list__item">
+            <a className="footer__list__item" href="">
+              Nossa História
+            </a>
+          </li>
+          <li className="footer__list__item">
+            <a className="footer__list__item" href="">
+              Quem faz
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="footer__list-links">
+        <ul className="footer__list">
+          <li className="footer__list__item">
+            <a className="footer__list__title" href="">
+              MULHERES IMPACTADAS
+            </a>
+          </li>
+          <li className="footer__list__item">
+            <a className="footer__list__item" href="">
+              Depoimentos
+            </a>
+          </li>
+          <li className="footer__list__item">
+            <a className="footer__list__item" href="">
+              Resultados
+            </a>
+          </li>
+        </ul>
+      </div>
+
       
     </div>
 </section>;
