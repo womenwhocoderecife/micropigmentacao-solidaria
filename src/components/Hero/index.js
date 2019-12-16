@@ -12,6 +12,5 @@ const Hero = () => <section className="container_hero">
         <img src= {icone} alt="Icone_rolagem_para_baixo" />
     </a>
 </section>;
-
-
+    
 export default Hero;
