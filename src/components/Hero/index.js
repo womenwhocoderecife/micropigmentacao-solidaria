@@ -1,9 +1,6 @@
 import React from "react";
 import "./style.css";
 
-const Hero = () => <section className="container_hero">
-    
-</section>;
-
+const Hero = () => <section className="hero">Hero</section>;
 
 export default Hero;
