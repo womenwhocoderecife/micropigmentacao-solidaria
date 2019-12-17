@@ -1,5 +1,10 @@
+/*desktop*/
+
 .ImpactedWomen {
     display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: ;
   }
 
 
@@ -62,6 +67,34 @@
     color:#8e6769;
     margin-left: 92px;
   }
+
+  /*mobile*/
+
+
+  @media (min-width: 375px){
+    .image{
+      width:300px;
+      height: 190px;
+    }
+
+    .title{
+      margin-bottom: 63px;
+    }
+
+    .container{
+      justify-content: center;
+    }
+
+  }
+
+@media (min-width:1440px){
+  .image{
+    width: 525px;
+    height: 346px;
+  }
+}
+
+
 
 
 
