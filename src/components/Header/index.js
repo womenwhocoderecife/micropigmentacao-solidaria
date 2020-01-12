@@ -6,11 +6,9 @@ import logo from '../../assets/img/logo.png';
 const Header = () =>
 
     <header className="menu_nav">
-        <div className="logo">
-            <a href="#inicio">
-                <img className="menu_img" src={logo} alt="Logo Valentes e Bonitas" />
-            </a>
-        </div>
+        <a href="#inicio">
+            <img className="menu_img" src={logo} alt="Logo Valentes e Bonitas" />
+        </a>
         <nav className="menu">
             <ul className="menu_list">
                 <li className="menu_list_item">
@@ -37,5 +35,5 @@ const Header = () =>
             </ul>
         </nav>
     </header>
-    
+
 export default Header;

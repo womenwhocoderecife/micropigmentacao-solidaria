@@ -1,32 +1,24 @@
+/*/-_-_-_-_  Header -_-_-_-_ /*/
+
 .menu_nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 14px 82px;
 }
 
 
 /*/-_-_-_-_  Logo -_-_-_-_ /*/
-
-
-.logo {
-	margin-left: 80px;
-
-  }
   
-  .menu_img {
-	object-fit: contain;
+.menu_img {
 	width: 140px;
-	}
+}
 	
-
 
 /*/-_-_-_-_  Menu  -_-_-_-_/*/
 
-
-
 .menu {
 	flex-grow: 10;
-	margin-right: 106px;
 }
 
 .menu_list{
