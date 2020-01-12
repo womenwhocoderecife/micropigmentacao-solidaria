@@ -1,4 +1,4 @@
-/*/-_-_-_-_  Header -_-_-_-_ /*/
+/*/-_-_-_-_-_-_-_-_    Header   -_-_-_-_-_-_-_-_ /*/
 
 .menu_nav {
 	display: flex;
@@ -8,15 +8,15 @@
 }
 
 
-/*/-_-_-_-_  Logo -_-_-_-_ /*/
+/*/-_-_-_-_-_-_-_-_-_   Logo  _-_-_-_-_-_-_-_-_ /*/
   
 .menu_img {
 	object-fit: contain;
 	width: 140px;
 }
 	
-
-/*/-_-_-_-_  Menu Hamburguer -_-_-_-_ /*/
+ 
+/*/-_-_-_-_-_-_   Menu Hamburguer  -_-_-_-_-_-_ /*/
 
 .menu_hamburger {
 	border: 0;
@@ -30,23 +30,22 @@
 	text-align: center;
 }
 
-@media (min-width: 890px){
+@media (min-width: 980px){
   .menu_hamburger {
 		display: none;
 	}
 }
 
-@media (max-width: 890px){
+@media (max-width: 980px){
   .menu_hamburger {
 		display: flex;
 	}
 }
 
 
-/*/-_-_-_-_  Menu  -_-_-_-_/*/
+/*/-_-_-_-_-_-_-_-_-_   Menu  _-_-_-_-_-_-_-_-_ /*/
 
-
-@media (min-width: 890px){
+@media (min-width: 980px){
   .menu {
 		width: 100%;
 		height: 100%;
@@ -58,54 +57,39 @@
 	}
 }
 
-@media (max-width: 890px){
+@media (max-width: 980px){
   .menu {
 		display: none;
 	}
 }
 
+/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
 .menu_list{
 	display: flex;
 	list-style: none;
+	justify-content: space-between;
 }
 
-@media (min-width: 890px){
-  .menu_list {
-		flex-direction: column;
-		justify-content: flex-end;
-		flex-direction: row;
-	}
-}
 
+/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
 .menu_list_item {
-	margin: 10px;
-	margin: 0px 10px;
 	color: #B76882;
 }
 
 
+/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
+
   .menu_list_link {
-	margin: 10px 0 0 0;
-	padding: 0;
-	max-width: 650px;
-	width: 100%;
-	list-style: none;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	text-decoration: none;
-	color: var(--light-secondary-color);
+	color: #B76882;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
 	font-size: 14px;
-	padding: 10px;
-	width: 100%;
 }
-
 
 .menu_list_link:hover {
 	color: #B76882;
