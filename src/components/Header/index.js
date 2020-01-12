@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './style.css';
 import logo from '../../assets/img/logo.png';
+import hamburger from '../../assets/img/hamburger.svg';
+
 
 const Header = () =>
 
@@ -9,6 +11,7 @@ const Header = () =>
         <a href="#inicio">
             <img className="menu_img" src={logo} alt="Logo Valentes e Bonitas" />
         </a>
+        <button className="menu_hamburger"> <img className="hambuerger_img" src={hamburger}></img></button>
         <nav className="menu">
             <ul className="menu_list">
                 <li className="menu_list_item">

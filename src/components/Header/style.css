@@ -11,28 +11,40 @@
 /*/-_-_-_-_  Logo -_-_-_-_ /*/
   
 .menu_img {
+	object-fit: contain;
 	width: 140px;
 }
 	
 
+/*/-_-_-_-_  Menu Hamburguer -_-_-_-_ /*/
+
+.menu_hamburger {
+	border: 0;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	text-align: center;
+}
+
+@media (min-width: 890px){
+  .menu_hamburger {
+		display: none;
+	}
+}
+
+@media (max-width: 890px){
+  .menu_hamburger {
+		display: flex;
+	}
+}
+
+
 /*/-_-_-_-_  Menu  -_-_-_-_/*/
 
-.menu {
-	flex-grow: 10;
-}
-
-.menu_list{
-	display: flex;
-	list-style: none;
-}
-
-
-
-
-.menu li {
-		margin: 0px 10px;
-		color: #B76882;
-}
 
 @media (min-width: 890px){
   .menu {
@@ -46,6 +58,33 @@
 	}
 }
 
+@media (max-width: 890px){
+  .menu {
+		display: none;
+	}
+}
+
+
+.menu_list{
+	display: flex;
+	list-style: none;
+}
+
+@media (min-width: 890px){
+  .menu_list {
+		flex-direction: column;
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+}
+
+
+.menu_list_item {
+	margin: 10px;
+	margin: 0px 10px;
+	color: #B76882;
+}
+
 
   .menu_list_link {
 	margin: 10px 0 0 0;
@@ -57,22 +96,6 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
-}
-
-@media (min-width: 890px){
-  .menu_list {
-		flex-direction: column;
-		justify-content: flex-end;
-		flex-direction: row;
-	}
-}
-
-.menu_list_item {
-	margin: 10px;
-}
-
-.menu_list_link {
 	text-decoration: none;
 	color: var(--light-secondary-color);
 	text-transform: uppercase;
@@ -82,6 +105,7 @@
 	padding: 10px;
 	width: 100%;
 }
+
 
 .menu_list_link:hover {
 	color: #B76882;
