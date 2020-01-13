@@ -46,7 +46,7 @@
 /*/-_-_-_-_-_-_-_-_-_   Menu  _-_-_-_-_-_-_-_-_ /*/
 
 @media (min-width: 980px){
-  .menu {
+	.menu {
 		width: 100%;
 		height: 100%;
 		background: none;
