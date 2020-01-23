@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import woman1 from "../../assets/video1.png";
-import woman2 from "../../assets/video2.png";
+
+
 
 const ImpactedWomen = () => <section className="impactedwomen">
     
@@ -9,7 +9,7 @@ const ImpactedWomen = () => <section className="impactedwomen">
      
        <div class = "container">
          <div>
-           <img className= "image" src = {woman1} alt = "img rose"/>
+         <video width="400" type="video/MP4" className= "image" src = "../../assets/video1.MP4" alt = "img rose"></video>
          </div>
          <div class = "content">
            <h2 className = "name">Rose</h2>
@@ -23,7 +23,7 @@ const ImpactedWomen = () => <section className="impactedwomen">
      
        <div class = "container">
          <div>
-           <img className="image" src = {woman2} alt = "img jane"/>
+         <video width="400" type="video/MP4" className= "image" src = "../../assets/video2.MP4" alt = "img rose"></video>
          </div>
          <div class = "content">
            <h2 className = "name">Jane</h2>
