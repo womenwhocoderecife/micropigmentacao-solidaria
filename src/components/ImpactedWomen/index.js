@@ -13,7 +13,7 @@ const ImpactedWomen = () => <section className="impactedwomen">
          </div>
          <div class = "content">
            <h2 className = "name">Rose</h2>
-           <p className = "History">Conheceu o projeto de Micropigmentação Soliária no Hospital do Câncer, recuperou sua autoestima após passar pelos procedimentos de micropgmentação da sobrancelha e disse que superou o tratamento contra o Câncer com mais facilidade, se sentindo linda!</p>
+           <p className = "content_Description">Conheceu o projeto de Micropigmentação Soliária no Hospital do Câncer, recuperou sua autoestima após passar pelos procedimentos de micropgmentação da sobrancelha e disse que superou o tratamento contra o Câncer com mais facilidade, se sentindo linda!</p>
          </div>
        </div>
      
