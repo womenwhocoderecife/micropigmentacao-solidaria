@@ -27,7 +27,7 @@ const ImpactedWomen = () => <section className="impactedwomen">
          </div>
          <div class = "content">
            <h2 className = "name">Jane</h2>
-           <p className = "History">Não sabia que era possível fazer a reconstrução de auréola e ficou encantada com o projeto, disse que com essa iniciativa voltou a ter autoestima, a ser mulher, a viver!</p>
+           <p className = "content_Description">Não sabia que era possível fazer a reconstrução de auréola e ficou encantada com o projeto, disse que com essa iniciativa voltou a ter autoestima, a ser mulher, a viver!</p>
          </div>
        </div>
      
