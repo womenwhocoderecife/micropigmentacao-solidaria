@@ -11,10 +11,10 @@
 .title{
     font-family: Nunito;
     font-style: normal;
-    font-size:50px;
+    font-size:3.125em;
     text-align: center;
     color: #430307;
-    margin-bottom: 107px;
+    
   }
 
   .container{
@@ -46,20 +46,20 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height-step: 31px;
   
     color: #430307;
   }
   
-  .History{
+  .content_Description{
     width: 360px;
     
     margin-bottom: 91px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size:16px;
+    font-size:1em;
     line-height:30px;
   
     text-align: justify;
