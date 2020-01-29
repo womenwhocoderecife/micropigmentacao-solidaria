@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import facebook from "../../assets/icons/twitter.svg";
+import facebook from "../../assets/icons/facebook.svg";
 import instagram from "../../assets/icons/instagram.svg";
 import logo from "../../assets/images/logo.svg";
 
@@ -10,7 +10,7 @@ const Footer = () => <section className="footer">
       
       <div className="footer__list__logo">
         <figure className="footer__figure__logo">
-          <img className="footer__logo" scr={logo} alt="logo" title="Valentes e Bonitas" />
+          <img className="footer__logo" src={logo} alt="logo" title="Valentes e Bonitas" />
         </figure>
         <ul className="footer__list__social-network">
           <li className="footer__list__item__social-network">
@@ -82,8 +82,6 @@ const Footer = () => <section className="footer">
       </div>
 
     </div>
-
-    <hr ClassName="line"></hr>
 
     <div className="footer__copyright">
       ©2019 - desenvolvido por Women Dev Projects
