@@ -3,6 +3,7 @@ import "./style.css";
 
 
 
+
 const ImpactedWomen = () => <section className="impactedwomen">
     
     <h1 className = "title">Mulheres Impactadas</h1>
