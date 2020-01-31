@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container_hero{
     width: 100%;
     height:80vh;
@@ -32,6 +33,10 @@
 /*<<<<<<< HEAD
 .hero, .container-hero, h1, a, p {
 <<<<<<< HEAD
+=======
+.container_hero, h1, a, p {
+    width: 100%;
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
     margin: 0%;
     padding: 0%;
   }
@@ -42,7 +47,11 @@
         box-sizing: border-box;
     }
     
+<<<<<<< HEAD
     .container-hero{
+=======
+    .container_hero{
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
         width: 100%;
         height:850px;
         padding: 20px;
@@ -67,6 +76,10 @@
     }
     
     p{
+<<<<<<< HEAD
+=======
+        width:550px;
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
         position: absolute;
         top:450px;
         font-family: 'Open Sans';
@@ -74,6 +87,7 @@
         font-style: normal;
         color: #FFFFFF;
         margin-left: 7%;
+<<<<<<< HEAD
     }
     
     a{
@@ -202,6 +216,9 @@
         color: #FFFFFF;
         margin-left: 7%;
     
+=======
+        text-align: left;
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
     }
     
     a{
@@ -210,6 +227,7 @@
         width:150px;
         height: 80px;
         margin-left: -7%;
+<<<<<<< HEAD
         margin-right: 70%;
         text-decoration: none;
     
@@ -461,119 +479,169 @@
 }
 >>>>>>> index e style Hero
 =======
+=======
+        margin-right: 70%; 
+        text-decoration: none;
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
 
-  .container_hero, h1, a, p {
+    }
+  
+    .scroll{
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: semibold;
+        color: #FFFFFF;
+    }
+  
+    #icone{
+        width:48px;
+        height:48px;
+        margin-right:20%;
+        margin-left: 20%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 375px) and (max-width:720px) {
+  
+    *{
+        box-sizing: border-box;
+    }
+  
+    .container_hero{ 
         width: 100%;
-        margin: 0%;
-        padding: 0%;
-      }
-      
-      @media only screen and (min-width: 1025px) and (max-width:1440px) {
-      
-        *{
-            box-sizing: border-box;
-        }
-        
-        .container_hero{
-            width: 100%;
-            height:850px;
-            padding: 20px;
-            background: rgba(67, 3, 7, 0.4);
-            background-image: url('assets/hero_max.png');
-            background-attachment:fixed;
-            background-size: 100%;
-            background-repeat: no-repeat;    
-        }
-      
-        h1{
-            position: absolute;
-            top:270px;
-            width:350px;
-            text-align: left;
-            font-family: 'Nunito';
-            font-size: 64px;
-            font-style: bold;
-            color: #FFFFFF;
-            margin-left: 7%;
-        
-        }
-        
-        p{
-            position: absolute;
-            top:450px;
-            font-family: 'Open Sans';
-            font-size: 24px;
-            font-style: normal;
-            color: #FFFFFF;
-            margin-left: 7%;
-        }
-        
-        a{
-            position: absolute;
-            top:700px;
-            width:150px;
-            height: 80px;
-            margin-left: -7%;
-            margin-right: 70%; 
-            text-decoration: none;
+        height:850px;
+        padding: 20px;
+        background-color: black;;
+        background-image: url('assets/hero_min.png');
+        background-attachment:fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  
+    h1{
+        position: absolute;
+        top:270px;
+        width:350px;
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: 64px;
+        font-style: bold;
+        color: #FFFFFF;
+        margin-left: 7%;
     
-        }
-      
-        .scroll{
-            font-family: 'Nunito';
-            font-size: 14px;
-            font-style: semibold;
-            color: #FFFFFF;
-        }
-      
-        #icone{
-            width:48px;
-            height:48px;
-            margin-right:20%;
-            margin-left: 20%;
-        }
-      }
-      
-      
-      @media only screen and (min-width: 375px) and (max-width:720px) {
-      
-        *{
-            box-sizing: border-box;
-        }
-      
-        .container-hero{
-            width: 100%;
-            height:850px;
-            padding: 20px;
-            background-color: black;;
-            background-image: url('assets/hero_min.png');
-            background-attachment:fixed;
-            background-size: 100%;
-            background-repeat: no-repeat;
-        }
-      
-        h1{
-            position: absolute;
-            top:270px;
-            width:350px;
-            text-align: left;
-            font-family: 'Nunito';
-            font-size: 64px;
-            font-style: bold;
-            color: #FFFFFF;
-            margin-left: 7%;
-        
-        }
-        
-        a{
-            position: absolute;
-            top:700px;
-            width:150px;
-            height: 80px;
-            margin-left: -15%;
-            margin-right: 70%;
-            text-decoration: none;
+    }
     
+    a{
+        position: absolute;
+        top:700px;
+        width:150px;
+        height: 80px;
+        margin-left: -15%;
+        margin-right: 70%;
+        text-decoration: none;
+
+    }
+  
+    .scroll{
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: semibold;
+        color: #FFFFFF;
+    }
+    
+    #icone{
+        width:48px;
+        height:48px;
+        margin-right:20%;
+        margin-left: 20%;
+    }
+  
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:490px;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-style: normal;
+        color: #FFFFFF;
+        margin-left: 7%;
+        width:400px;
+    }
+  }
+  
+  @media only screen and (min-width: 721px) and (max-width:1024px) {
+  
+    *{
+        box-sizing: border-box;
+    }
+  
+    .container_hero{
+        width: 100%;
+        height:850px;
+        padding: 20px;
+        background-color: black;;
+        background-image: url('assets/hero_min.png');
+        background-attachment:fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  
+    h1{
+        position: absolute;
+        top:270px;
+        width:350px;
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: 64px;
+        font-style: bold;
+        color: #FFFFFF;
+        margin-left: 7%;
+    
+    }
+    
+    a{
+        position: absolute;
+        top:700px;
+        width:150px;
+        height: 80px;
+        margin-left: -7%;
+        margin-right: 70%;
+        text-decoration: none;
+    
+    }
+  
+    .scroll{
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: semibold;
+        color: #FFFFFF;
+    }
+    
+    #icone{
+        width:48px;
+        height:48px;
+        margin-right:20%;
+        margin-left: 20%;
+    }
+  
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:490px;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-style: normal;
+        color: #FFFFFF;
+        margin-left: 7%;
+        width:400px;
+    }        
+    
+<<<<<<< HEAD
         }
       
         .scroll{
@@ -677,3 +745,13 @@
       }
 >>>>>>> 8ff324e8d8bb3fbe888eb8cef90eaf2871fcbb55
 */
+=======
+    #icone{
+        width:48px;
+        height:48px;
+        margin-right:20%;
+        margin-left: 20%;
+            
+    }    
+  }
+>>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
