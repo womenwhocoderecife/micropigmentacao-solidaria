@@ -4,7 +4,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 14px 82px;
+	padding: 14px 80px;
 }
 
 
@@ -20,7 +20,7 @@
 
 .menu_hamburger {
 	border: 0;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	font-size: 16px;
 	cursor: pointer;
 	right: 20px;
@@ -36,23 +36,19 @@
 
 /*/-_-_-_-_-_-_-_-_-_   Menu  _-_-_-_-_-_-_-_-_ /*/
 
+.menu {
+	width: 80%;
+	padding: 0;
+	display: none;
+	justify-content: flex-end;
+	}
+
 @media (min-width: 980px){
-	.menu {
-		width: 100%;
-		height: 100%;
-		background: none;
-		flex-direction: row;
-		padding: 0;
-		align-items: flex-start;
-		justify-content: space-between;
+  .menu {
+		display: flex;
 	}
 }
 
-@media (max-width: 980px){
-  .menu {
-		display: none;
-	}
-}
 
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
@@ -60,6 +56,8 @@
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
+	padding: 0;
+	width: 100%;
 }
 
 
@@ -73,13 +71,13 @@
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
   .menu_list_link {
-	display: flex;
 	text-decoration: none;
 	color: #B76882;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .menu_list_link:hover {
