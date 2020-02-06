@@ -9,10 +9,13 @@ const Hero = () => (
             <p className="text_hero">Lorem ipsum dolor sit amet, consectetur  elit, 
                 sed do eiut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam.</p>
-        <a className="anchor_hero" href="a">
-                <div className='command_hero'> Scroll Down </div>
-                <img className= "icon_hero" src= {icone} alt="Icone_rolagem_para_baixo" />
-        </a>
+            <div className="link_hero" href="a">
+                <p className='command_hero'> Scroll Down </p>
+                <a className="anchor_hero" href="a">
+                        <img className= "icon_hero" src= {icone} alt="Icone_rolagem_para_baixo" />
+                </a>
+            </div>
+                
      </section>   
                 
 );

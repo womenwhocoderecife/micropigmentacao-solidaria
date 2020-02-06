@@ -1,6 +1,6 @@
-.container_hero{
+.container_hero {
     width: 100%;
-    height:80vh;
+    height: 80vh;
     background: url('assets/hero_max.png') center center/cover no-repeat fixed padding-box   rgba(67, 3, 7, 0.4); 
     text-align: left; 
     color: #FFFFFF;
@@ -10,23 +10,42 @@
 
 }
 
-.title_hero{
+.title_hero {
     width: 100%;
     max-width:350px;
     font-family: 'Nunito';
     font-size: 64px;
     font-weight: bold;
-    margin: 30px;
+    margin: 0px 30px;
 }
 
-.text_hero{
+.text_hero {
     margin: 30px;
-    width: 40%;
+    width: 80%;
+    max-width: 600px;
     font-family: 'Open Sans';
     font-size: 24px;
 }
 
+.link_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px;
+}
 
+.command_hero {
+    font-family: 'Nunito';
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin:0px 0px;
+
+}
+
+.command_hero, .anchor_hero, .icon_hero {
+    margin: 0px 0px;
+}
 
 
 
