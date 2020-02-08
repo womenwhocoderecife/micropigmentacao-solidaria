@@ -4,14 +4,14 @@ import Header from "../Header";
 import Hero from "../Hero";
 import About from "../About";
 import Footer from "../Footer";
-import whoDoes from "../whoDoes";
+import WhoDoes from "../WhoDoes";
 
 const App = () => (
   <div className="App">
     <Header />
     <Hero />
     <About />
-    <whoDoes />
+    <WhoDoes />
     <Footer />
   </div>
 );
