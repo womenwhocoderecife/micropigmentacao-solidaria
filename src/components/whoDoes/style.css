@@ -58,12 +58,14 @@
 .whoDoes__body__title {
   font-family: var(--font-title);
   font-size: var(--size-h3);
-  color: var(--color-h2);
+  color: var(--color-h3);
 }
 
 .whoDoes__body__subtitle {
   font-family: var(--font-title);
-  font-size: 21px;
+  font-size: var(--size-h4);
+  color: var(--color-h4);
+  margin-top: 15px;
 }
 
 .whoDoes__body__paragraph {
