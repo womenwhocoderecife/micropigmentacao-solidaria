@@ -1,6 +1,8 @@
 :root {
   --color-background: #F2F2F2;
   --color-h2: #430307;
+  --color-h3: #430307;
+  --color-h4: #8E6769;
   --color-p: #8E6769;
   --color-border: #430307;
   --size-h2: 50px;
