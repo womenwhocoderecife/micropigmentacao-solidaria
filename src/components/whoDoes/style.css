@@ -28,6 +28,12 @@
   font-size: var(--size-h2);
 }
 
+@media (min-width: 1280px) {
+  .title {
+    margin-bottom: 60px;
+  }
+}
+
 .whoDoes__body {
   display: flex;
   flex-direction: column;
@@ -35,8 +41,9 @@
 
 @media (min-width: 1280px) {
   .whoDoes__body {
-    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding-right: 40px;
   }
 }
 
@@ -45,9 +52,19 @@
   justify-content: center;
 }
 
+@media (min-width: 1280px){
+  .whoDoes__body__figure{
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+    align-items: right;
+    margin: 0;
+  }
+}
+
 .whoDoes__image {
   width: 85%;
-  border: 1px solid var(--color-border);
+  /* border: 1px solid var(--color-border); */
 }
 
 .whoDoes__body__text {
@@ -55,10 +72,22 @@
   margin: 10px 50px 30px 50px;
 }
 
+@media (min-width: 1280px){
+  .whoDoes__body__text{
+    width: 50%;
+  }
+}
+
 .whoDoes__body__title {
   font-family: var(--font-title);
   font-size: var(--size-h3);
   color: var(--color-h3);
+}
+
+@media (min-width: 1280px){
+  .whoDoes__body__title{
+    margin-top: 0px;
+  }
 }
 
 .whoDoes__body__subtitle {
