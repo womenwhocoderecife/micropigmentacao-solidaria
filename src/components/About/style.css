@@ -78,13 +78,24 @@
 .about__image{
   background: var(--color-background-image);
   width: 100%;
-  height: 200px;
-  padding: 45px 0px;
-  margin: 0px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  height: auto;
+  padding: 70px;
+  margin: 0;
+  display: flex;
+}
+
+@media (min-width: 680px) {
+  .about__image {
+    height: 470px;
+    padding: 100px;
+  }
+}
+
+@media (min-width: 980px) {
+  .about__image {
+    padding: 70px 0 70px 100px;
+    width: 60%;
+  }
 }
 
 .about__image__src{
