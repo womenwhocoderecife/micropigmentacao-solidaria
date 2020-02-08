@@ -154,10 +154,8 @@
 
 @media (min-width: 1280px) {
   .whoDoes__team {
-    display: flex;
-    flex-direction: row;
-    margin-left: 380px;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 20px;
   }
 }
 
@@ -169,8 +167,9 @@
 
 @media (min-width: 1280px) {
   .whoDoes__image-team {
-    width: 165px;
-    height: 143px;
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
   }
 }
 
