@@ -4,12 +4,14 @@ import Header from "../Header";
 import Hero from "../Hero";
 import About from "../About";
 import Footer from "../Footer";
+import ImpactedWomen from "../ImpactedWomen";
 
 const App = () => (
   <div className="App">
     <Header />
     <Hero />
     <About />
+    <ImpactedWomen/>
     <Footer />
   </div>
 );
