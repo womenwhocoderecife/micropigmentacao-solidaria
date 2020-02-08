@@ -35,13 +35,13 @@ const WhoDoes = () => <section className="whoDoes">
             </div>
         </div>
 
-        <div className="whoDoes__team">
+    </div>
+
+    <div className="whoDoes__team">
         <img className="about__image-team__src" src={yone} alt="yone" />
         <img className="about__image-team__src" src={daniela} alt="daniela" />
-        <img className="about__image-team__src" src={} alt="" />
-        <img className="about__image-team__src" src={} alt="" />
-        </div>
-        
+        <img className="about__image-team__src" src={woman1} alt="woman1" />
+        <img className="about__image-team__src" src={woman2} alt="woman2" />
     </div>
 
 </section>;
