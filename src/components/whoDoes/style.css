@@ -7,3 +7,109 @@
   --font-title: 'Nunito', sans-serif;
   --font-p: 'Open Sans', sans-serif;
 }
+
+/* Mobile */
+
+.whoDoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: var(--color-h2);
+  font-family: var(--font-title);
+  font-size: var(--size-h2);
+}
+
+.whoDoes__body {
+  display: flex;
+  flex-direction: row;
+}
+
+.whoDoes__body__figure {
+  display: flex;
+  justify-content: right;
+}
+
+.whoDoes__body__text {
+  justify-content: center;
+}
+
+.whoDoes__image__src {
+  width: 519px;
+  height: 518px;
+}
+
+.whoDoes__body__title {
+  font-family: var(--font-title);
+  font-size: 28px;
+}
+
+.whoDoes__body__subtitle {
+  font-family: var(--font-title);
+  font-size: 21px;
+}
+
+.whoDoes__body__paragraph {
+  font-family: var(--font-p);
+  font-size: 16px;
+}
+
+.about__icon__src {
+  width: 24px;
+  height: 20px;
+}
+
+.about__image-team__src {
+  width: 75px;
+  height: 68px;
+  margin: 5px;
+}
+
+.whoDoes__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.whoDoes__team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* Tablet */
+
+@media (min-width: 700px) {
+
+}
+
+
+/* Desktop */
+
+@media (min-width: 1280px) {
+
+.whoDoes__body {
+
+
+}
+
+.whoDoes__body {
+  display: flex;
+  flex-direction: row;
+}
+
+.whoDoes__team {
+  display: flex;
+  flex-direction: row;
+  margin-left: 380px;
+  justify-content: center;
+}
+
+.about__image-team__src {
+  width: 165px;
+  height: 143px;
+}
+
+}
