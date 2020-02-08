@@ -78,14 +78,15 @@
 }
 
 .whoDoes__icon {
-  width: 100px;
-  margin-top: 40px;
+  width: 80px;
+  margin-top: 20px;
 }
 
 .whoDoes__team {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
 }
 
 @media (min-width: 1280px) {
