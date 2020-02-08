@@ -26,11 +26,15 @@
 }
 
 .about__text{
-  display: flex;
-  width: 90%;
-  margin: 50px 20px;
-  flex-direction: column;
-  justify-content: space-evenly;
+  text-align: left;
+  width: 100%;
+}
+
+@media (min-width: 980px) {
+  .about__text {
+    padding: 90px 50px 40px 100px;
+    width: 40%;
+  }
 }
 
 .about__text__title{
