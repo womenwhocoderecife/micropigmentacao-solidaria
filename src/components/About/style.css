@@ -42,6 +42,15 @@
   font-size: var(--size-h2);
   color: var(--color-h2);
   text-align: center;
+  padding: 0 20px;
+}
+
+@media (min-width: 980px) {
+  .about__text__title {
+    padding: 0;
+    margin: 0 0 10px 0;
+    text-align: left;
+  }
 }
 
 .about__text__paragraph{
@@ -51,6 +60,8 @@
   text-align: justify;
   line-height: 2.0;
 }
+
+
 
 .about__image{
   background: var(--color-background-image);
