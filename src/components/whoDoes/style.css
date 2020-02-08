@@ -99,8 +99,8 @@
 
 .whoDoes__image-team {
   width: 90px;
+  height: 90px;
   object-fit: cover;
-  justify-content: space-between;
 }
 
 @media (min-width: 1280px) {
