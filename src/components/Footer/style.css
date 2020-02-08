@@ -1,3 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap");
+
+:root {
+  --color-title: #b76882;
+  --color-item: #8e6769;
+  --size-title: 14px;
+  --size-item: 14px;
+  --font-title: "Nunito", sans-serif;
+  --font-item: "Open Sans", sans-serif;
+}
+
+/* Mobile */
+
 .footer {
-  background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.footer__logo {
+  width: 97px;
+  height: 50px;
+}
+
+.footer__figure__logo {
+  margin: 0px;
+  align-items: right;
+  width: 100%;
+}
+
+.footer__list {
+  text-align: center;
+  padding: 0px;
+  line-height: 200%;
+}
+
+.footer__list__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__list-links {
+  width: 100%;
+}
+
+.footer__list__title {
+  margin: 0;
+  color: var(--color-title);
+  font-family: var(--font-title);
+  font-size: var(--size-title);
+  /* align: left; */
+  vertical-align: Top;
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer__list__item {
+  margin: 0;
+  color: var(--color-item);
+  font-family: var(--font-item);
+  font-size: var(--size-item);
+  /* align: Left; */
+  vertical-align: Top;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  display: flex;
+  margin: 0;
+  color: var(--color-item);
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+  border-top: 1px solid #54191d;
+  font-weight: lighter;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer__list__social-network {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+
+.footer__list__item__social-network {
+  padding: 0px;
+}
+
+.footer__img__social-network {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__figure__social-network {
+  margin: 3px;
+}
+
+/* Tablet */
+
+@media (min-width: 700px) {
+  .footer {
+    align-items: center;
+  }
+
+  .footer__container {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1280px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 274px;
+    margin: 0 auto;
+    list-style: none;
+    overflow-x: hidden;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px;
+    padding-left: 140px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 80px;
+    box-sizing: border-box;
+  }
+
+  .footer__img {
+    width: 96.6px;
+  }
+
+  .footer__list {
+    text-align: left;
+  }
+
+  .footer__list__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__list__logo {
+    width: 30%;
+  }
+
+  .footer__figure__logo {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    padding-left: 35px;
+  }
+
+  .footer__list-links {
+    width: 20%;
+  }
+
+  .footer__list__title {
+    margin: 0;
+    color: #b76882;
+    font-weight: bold;
+    font: "Nunito", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    line-height: 100%;
+    /* Align: Left; */
+    vertical-align: Top;
+    text-decoration: none;
+  }
+
+  .footer__list__item {
+    margin: 0;
+    color: #8e6769;
+    font-weight: Regular;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 21px;
+    line-height: 110%;
+    /* align: Left; */
+    vertical-align: Top;
+    list-style: none;
+    line-height: 200%;
+    text-decoration: none;
+  }
+
+  .linha-horizontal {
+    color: #54191d;
+  }
+
+  .footer__copyright {
+    display: flex;
+    margin: 0;
+    color: #8e6769;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #54191d;
+    font-weight: lighter;
+    padding-right: 110px;
+  }
+
+  .footer__list__social-network {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-start;
+    margin-left: 55px;
+  }
+
+  .footer__list-contact {
+    flex-wrap: nowrap;
+    width: 20%;
+  }
 }
