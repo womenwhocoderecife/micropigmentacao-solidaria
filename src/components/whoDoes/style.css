@@ -1,5 +1,5 @@
 :root {
-  --color-background-image: #430307;
+  --color-background: #F2F2F2;
   --color-h2: #430307;
   --color-p: #8E6769;
   --size-h2: 50px;
@@ -8,9 +8,8 @@
   --font-p: 'Open Sans', sans-serif;
 }
 
-/* Mobile */
-
 .whoDoes {
+  background: var(--color-background);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +24,13 @@
 .whoDoes__body {
   display: flex;
   flex-direction: row;
+}
+
+@media (min-width: 1280px) {
+  .whoDoes__body {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .whoDoes__body__figure {
@@ -61,10 +67,18 @@
   height: 20px;
 }
 
+
 .about__image-team__src {
   width: 75px;
   height: 68px;
   margin: 5px;
+}
+
+@media (min-width: 1280px) {
+  .about__image-team__src {
+    width: 165px;
+    height: 143px;
+  }
 }
 
 .whoDoes__body {
@@ -78,38 +92,15 @@
   justify-content: center;
 }
 
-
-/* Tablet */
-
-@media (min-width: 700px) {
-
-}
-
-
-/* Desktop */
-
 @media (min-width: 1280px) {
-
-.whoDoes__body {
-
-
+  .whoDoes__team {
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+    justify-content: center;
+  }
 }
 
-.whoDoes__body {
-  display: flex;
-  flex-direction: row;
-}
 
-.whoDoes__team {
-  display: flex;
-  flex-direction: row;
-  margin-left: 380px;
-  justify-content: center;
-}
 
-.about__image-team__src {
-  width: 165px;
-  height: 143px;
-}
 
-}
