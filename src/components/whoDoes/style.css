@@ -4,6 +4,8 @@
   --color-p: #8E6769;
   --color-border: #430307;
   --size-h2: 50px;
+  --size-h3: 28px;
+  --size-h4: 21px;
   --size-p: 16px;
   --font-title: 'Nunito', sans-serif;
   --font-p: 'Open Sans', sans-serif;
@@ -53,7 +55,8 @@
 
 .whoDoes__body__title {
   font-family: var(--font-title);
-  font-size: 28px;
+  font-size: var(--size-h3);
+  color: var(--color-h2);
 }
 
 .whoDoes__body__subtitle {
