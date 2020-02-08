@@ -24,7 +24,7 @@
 
 .whoDoes__body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .whoDoes__body__figure {
