@@ -58,10 +58,22 @@
   font-size: var(--size-p);
   color: var(--color-p);
   text-align: justify;
-  line-height: 2.0;
+  line-height: 2;
+  padding: 0 50px;
 }
 
+@media (min-width: 680px) {
+  .about__text__paragraph {
+    padding: 0 100px;
+  }
+}
 
+@media (min-width: 980px) {
+  .about__text__paragraph {
+    padding: 0;
+    margin: 30px 0 0 0;
+  }
+}
 
 .about__image{
   background: var(--color-background-image);
