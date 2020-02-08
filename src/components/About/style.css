@@ -8,15 +8,21 @@
   --font-p: 'Open Sans', sans-serif;
 }
 
-/* Mobile */
-
 .about {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   margin: 50px 0px;
+  width: 100%;
+}
+
+@media (min-width: 980px) {
+  .about {
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 110px 0px;
+  }
 }
 
 .about__text{
