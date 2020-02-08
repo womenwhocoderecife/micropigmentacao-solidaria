@@ -87,6 +87,7 @@
 @media (min-width: 1280px){
   .whoDoes__body__title{
     margin-top: 0px;
+    text-align: left;
   }
 }
 
@@ -95,6 +96,13 @@
   font-size: var(--size-h4);
   color: var(--color-h4);
   margin-top: 15px;
+}
+
+@media (min-width: 1280px){
+  .whoDoes__body__subtitle{
+    margin-top: 0px;
+    text-align: left;
+  }
 }
 
 .whoDoes__body__paragraph {
