@@ -2,6 +2,7 @@
   --color-background: #F2F2F2;
   --color-h2: #430307;
   --color-p: #8E6769;
+  --color-border: #430307;
   --size-h2: 50px;
   --size-p: 16px;
   --font-title: 'Nunito', sans-serif;
@@ -35,17 +36,18 @@
 
 .whoDoes__body__figure {
   display: flex;
-  justify-content: right;
+  justify-content: center;
+}
+.whoDoes__image__src {
+  width: 85%;
+  border: 1px solid var(--color-border);
 }
 
 .whoDoes__body__text {
   justify-content: center;
 }
 
-.whoDoes__image__src {
-  width: 519px;
-  height: 518px;
-}
+
 
 .whoDoes__body__title {
   font-family: var(--font-title);
