@@ -45,7 +45,7 @@
   justify-content: center;
 }
 
-.whoDoes__image__src {
+.whoDoes__image {
   width: 85%;
   border: 1px solid var(--color-border);
 }
@@ -77,20 +77,20 @@
   line-height: 2;
 }
 
-.about__icon__src {
+.about__icon {
   width: 100px;
   margin-top: 40px;
 }
 
 
-.about__image-team__src {
+.about__image-team {
   width: 75px;
   height: 68px;
   margin: 5px;
 }
 
 @media (min-width: 1280px) {
-  .about__image-team__src {
+  .about__image-team {
     width: 165px;
     height: 143px;
   }
