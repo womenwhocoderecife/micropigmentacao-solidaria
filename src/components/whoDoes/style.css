@@ -77,16 +77,16 @@
   line-height: 2;
 }
 
-.about__icon {
+.whoDoes__icon {
   width: 100px;
   margin-top: 40px;
 }
 
 
-.about__image-team {
-  width: 75px;
-  height: 68px;
-  margin: 5px;
+.whoDoes__image-team {
+  width: 90px;
+  object-fit: cover;
+  justify-content: space-between;
 }
 
 @media (min-width: 1280px) {
