@@ -70,7 +70,11 @@
 
 .whoDoes__body__paragraph {
   font-family: var(--font-p);
-  font-size: 16px;
+  font-size: var(--font-p);
+  color: var(--color-p);
+  text-align: justify;
+  margin-top: 100px;
+  line-height: 2;
 }
 
 .about__icon__src {
