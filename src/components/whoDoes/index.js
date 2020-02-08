@@ -4,6 +4,9 @@ import daniela from "../assets/img/daniela.png";
 import yone from "../assets/img/yone.jpg";
 import woman1 from "../assets/img/woman1.jpg";
 import woman2 from "../assets/img/woman2.jpg";
+import facebook from "../assets/img/Facebook.svg"
+import Instagram from "../assets/img/Instagram.svg"
+import Twitter from "../assets/img/Twitter.svg"
 
 
 const whoDoes = () => <section className="whoDoes">
