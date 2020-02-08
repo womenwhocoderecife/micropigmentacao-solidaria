@@ -1,59 +1,52 @@
 .container_hero {
-    width: 100%;
-    height: 80vh;
-    background: url('assets/hero_max.png') center center/cover no-repeat fixed padding-box   rgba(67, 3, 7, 0.4); 
-    text-align: left; 
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
+  width: 100%;
+  height: 80vh;
+  background: url('../../assets/imgs/hero_max.png') center center/cover
+    no-repeat fixed padding-box rgba(67, 3, 7, 0.4);
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .title_hero {
-    width: 100%;
-    max-width:350px;
-    font-family: 'Nunito';
-    font-size: 64px;
-    font-weight: bold;
-    margin: 0px 30px;
+  width: 100%;
+  max-width: 350px;
+  font-family: 'Nunito';
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0px 30px;
 }
 
 .text_hero {
-    margin: 30px;
-    width: 80%;
-    max-width: 600px;
-    font-family: 'Open Sans';
-    font-size: 24px;
+  margin: 30px;
+  width: 80%;
+  max-width: 600px;
+  font-family: 'Open Sans';
+  font-size: 24px;
 }
 
 .link_hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
 }
 
 .command_hero {
-    font-family: 'Nunito';
-    font-size: 14px;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin:0px 0px;
-
+  font-family: 'Nunito';
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 0px;
 }
 
-.command_hero, .anchor_hero, .icon_hero {
-    margin: 0px 0px;
+.command_hero,
+.anchor_hero,
+.icon_hero {
+  margin: 0px 0px;
 }
-
-
-
-
-
-
-
-
 
 /*<<<<<<< HEAD
 .hero, .container-hero, h1, a, p {
@@ -65,13 +58,13 @@
     margin: 0%;
     padding: 0%;
   }
-  
+
   @media only screen and (min-width: 1025px) and (max-width:1440px) {
-  
+
     *{
         box-sizing: border-box;
     }
-    
+
 <<<<<<< HEAD
     .container-hero{
 =======
@@ -84,9 +77,9 @@
         background-image: url('assets/hero_max.png');
         background-attachment:fixed;
         background-size: 100%;
-        background-repeat: no-repeat;    
+        background-repeat: no-repeat;
     }
-  
+
     h1{
         position: absolute;
         top:270px;
@@ -97,9 +90,9 @@
         font-style: bold;
         color: #FFFFFF;
         margin-left: 7%;
-    
+
     }
-    
+
     p{
 <<<<<<< HEAD
 =======
@@ -114,25 +107,25 @@
         margin-left: 7%;
 <<<<<<< HEAD
     }
-    
+
     a{
         position: absolute;
         top:700px;
         width:150px;
         height: 80px;
         margin-left: -7%;
-        margin-right: 70%; 
+        margin-right: 70%;
         text-decoration: none;
 
     }
-  
+
     .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
     }
-  
+
     #icone{
         width:48px;
         height:48px;
@@ -140,14 +133,14 @@
         margin-left: 20%;
     }
   }
-  
-  
+
+
   @media only screen and (min-width: 375px) and (max-width:720px) {
-  
+
     *{
         box-sizing: border-box;
     }
-  
+
     .container-hero{
         width: 100%;
         height:850px;
@@ -158,7 +151,7 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-  
+
     h1{
         position: absolute;
         top:270px;
@@ -169,9 +162,9 @@
         font-style: bold;
         color: #FFFFFF;
         margin-left: 7%;
-    
+
     }
-    
+
     a{
         position: absolute;
         top:700px;
@@ -182,21 +175,21 @@
         text-decoration: none;
 
     }
-  
+
     .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
     }
-    
+
     #icone{
         width:48px;
         height:48px;
         margin-right:20%;
         margin-left: 20%;
     }
-  
+
     p{
         display: flex;
         flex-wrap: wrap;
@@ -211,14 +204,14 @@
         width:400px;
     }
   }
-  
+
   @media only screen and (min-width: 721px) and (max-width:1024px) {
-  
-    
+
+
     *{
         box-sizing: border-box;
     }
-  
+
     .container-hero{
         width: 100%;
         height:850px;
@@ -229,7 +222,7 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-  
+
     h1{
         position: absolute;
         top:270px;
@@ -240,12 +233,12 @@
         font-style: bold;
         color: #FFFFFF;
         margin-left: 7%;
-    
+
 =======
         text-align: left;
 >>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
     }
-    
+
     a{
         position: absolute;
         top:700px;
@@ -255,16 +248,16 @@
 <<<<<<< HEAD
         margin-right: 70%;
         text-decoration: none;
-    
+
     }
-  
+
     .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
     }
-  
+
     p{
         display: flex;
         flex-wrap: wrap;
@@ -277,17 +270,17 @@
         margin-left: 7%;
         width:600px;
     }
-    
+
     #icone{
         width:48px;
         height:48px;
         margin-right:20%;
         margin-left: 20%;
-            
-    }    
+
+    }
   }
 
-  
+
 =======
   margin: 0%;
   padding: 0%;
@@ -298,7 +291,7 @@
   *{
       box-sizing: border-box;
   }
-  
+
   .container-hero{
       width: 100%;
       height:850px;
@@ -307,7 +300,7 @@
       background-image: url('assets/hero_max.png');
       background-attachment:fixed;
       background-size: 100%;
-      background-repeat: no-repeat;    
+      background-repeat: no-repeat;
   }
 
   h1{
@@ -318,9 +311,9 @@
       font-style: bold;
       color: #FFFFFF;
       margin-left: 7%;
-  
+
   }
-  
+
   p{
       position: absolute;
       top:490px;
@@ -329,11 +322,11 @@
       font-style: normal;
       color: #FFFFFF;
       margin-left: 7%;
-  
-  
-  
+
+
+
   }
-  
+
   a{
       position: absolute;
       top:700px;
@@ -341,9 +334,9 @@
       margin-left: 680px;
       margin-left: 43%;
       margin-right: 43%;
-  
-  
-  
+
+
+
   }
 
   #scroll{
@@ -387,9 +380,9 @@
       font-style: bold;
       color: #FFFFFF;
       margin-left: 7%;
-  
+
   }
-  
+
   a{
       position: absolute;
       top:700px;
@@ -398,9 +391,9 @@
       margin-left: 680px;
       margin-left: 35%;
       margin-right: 43%;
-  
-  
-  
+
+
+
   }
 
   #scroll{
@@ -409,7 +402,7 @@
       font-style: semibold;
       color: #FFFFFF;
   }
-  
+
   #icone{
       width:48px;
       height:48px;
@@ -433,7 +426,7 @@
 
 @media only screen and (min-width: 721px) and (max-width:1024px) {
 
-  
+
   *{
       box-sizing: border-box;
   }
@@ -457,9 +450,9 @@
       font-style: bold;
       color: #FFFFFF;
       margin-left: 7%;
-  
+
   }
-  
+
   a{
       position: absolute;
       top:700px;
@@ -468,9 +461,9 @@
       margin-left: 680px;
       margin-left: 43%;
       margin-right: 43%;
-  
-  
-  
+
+
+
   }
 
   #scroll{
@@ -492,117 +485,47 @@
       margin-left: 7%;
       width:600px;
   }
-  
+
   #icone{
       width:48px;
       height:48px;
       margin-right:20%;
       margin-left: 20%;
-          
+
   }
-      
+
 }
 >>>>>>> index e style Hero
 =======
 =======
-        margin-right: 70%; 
+        margin-right: 70%;
         text-decoration: none;
 >>>>>>> 38984175076bf4cb04e403620fabb268935e01a8
 
     }
-  
-    .scroll{
-        font-family: 'Nunito';
-        font-size: 14px;
-        font-style: semibold;
-        color: #FFFFFF;
-    }
-  
-    #icone{
-        width:48px;
-        height:48px;
-        margin-right:20%;
-        margin-left: 20%;
-    }
-  }
-  
-  
-  @media only screen and (min-width: 375px) and (max-width:720px) {
-  
-    *{
-        box-sizing: border-box;
-    }
-  
-    .container_hero{ 
-        width: 100%;
-        height:850px;
-        padding: 20px;
-        background-color: black;;
-        background-image: url('assets/hero_min.png');
-        background-attachment:fixed;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-  
-    h1{
-        position: absolute;
-        top:270px;
-        width:350px;
-        text-align: left;
-        font-family: 'Nunito';
-        font-size: 64px;
-        font-style: bold;
-        color: #FFFFFF;
-        margin-left: 7%;
-    
-    }
-    
-    a{
-        position: absolute;
-        top:700px;
-        width:150px;
-        height: 80px;
-        margin-left: -15%;
-        margin-right: 70%;
-        text-decoration: none;
 
-    }
-  
     .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
     }
-    
+
     #icone{
         width:48px;
         height:48px;
         margin-right:20%;
         margin-left: 20%;
     }
-  
-    p{
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        top:490px;
-        text-align: left;
-        font-family: 'Open Sans';
-        font-size: 24px;
-        font-style: normal;
-        color: #FFFFFF;
-        margin-left: 7%;
-        width:400px;
-    }
   }
-  
-  @media only screen and (min-width: 721px) and (max-width:1024px) {
-  
+
+
+  @media only screen and (min-width: 375px) and (max-width:720px) {
+
     *{
         box-sizing: border-box;
     }
-  
+
     .container_hero{
         width: 100%;
         height:850px;
@@ -613,7 +536,7 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-  
+
     h1{
         position: absolute;
         top:270px;
@@ -624,34 +547,34 @@
         font-style: bold;
         color: #FFFFFF;
         margin-left: 7%;
-    
+
     }
-    
+
     a{
         position: absolute;
         top:700px;
         width:150px;
         height: 80px;
-        margin-left: -7%;
+        margin-left: -15%;
         margin-right: 70%;
         text-decoration: none;
-    
+
     }
-  
+
     .scroll{
         font-family: 'Nunito';
         font-size: 14px;
         font-style: semibold;
         color: #FFFFFF;
     }
-    
+
     #icone{
         width:48px;
         height:48px;
         margin-right:20%;
         margin-left: 20%;
     }
-  
+
     p{
         display: flex;
         flex-wrap: wrap;
@@ -664,25 +587,95 @@
         color: #FFFFFF;
         margin-left: 7%;
         width:400px;
-    }        
-    
+    }
+  }
+
+  @media only screen and (min-width: 721px) and (max-width:1024px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container_hero{
+        width: 100%;
+        height:850px;
+        padding: 20px;
+        background-color: black;;
+        background-image: url('assets/hero_min.png');
+        background-attachment:fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        position: absolute;
+        top:270px;
+        width:350px;
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: 64px;
+        font-style: bold;
+        color: #FFFFFF;
+        margin-left: 7%;
+
+    }
+
+    a{
+        position: absolute;
+        top:700px;
+        width:150px;
+        height: 80px;
+        margin-left: -7%;
+        margin-right: 70%;
+        text-decoration: none;
+
+    }
+
+    .scroll{
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: semibold;
+        color: #FFFFFF;
+    }
+
+    #icone{
+        width:48px;
+        height:48px;
+        margin-right:20%;
+        margin-left: 20%;
+    }
+
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:490px;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-style: normal;
+        color: #FFFFFF;
+        margin-left: 7%;
+        width:400px;
+    }
+
 <<<<<<< HEAD
         }
-      
+
         .scroll{
             font-family: 'Nunito';
             font-size: 14px;
             font-style: semibold;
             color: #FFFFFF;
         }
-        
+
         #icone{
             width:48px;
             height:48px;
             margin-right:20%;
             margin-left: 20%;
         }
-      
+
         p{
             display: flex;
             flex-wrap: wrap;
@@ -697,14 +690,14 @@
             width:400px;
         }
       }
-      
+
       @media only screen and (min-width: 721px) and (max-width:1024px) {
-      
-        
+
+
         *{
             box-sizing: border-box;
         }
-      
+
         .container-hero{
             width: 100%;
             height:850px;
@@ -715,7 +708,7 @@
             background-size: 100%;
             background-repeat: no-repeat;
         }
-      
+
         h1{
             position: absolute;
             top:270px;
@@ -726,9 +719,9 @@
             font-style: bold;
             color: #FFFFFF;
             margin-left: 7%;
-        
+
         }
-        
+
         a{
             position: absolute;
             top:700px;
@@ -737,16 +730,16 @@
             margin-left: -7%;
             margin-right: 70%;
             text-decoration: none;
-        
+
         }
-      
+
         .scroll{
             font-family: 'Nunito';
             font-size: 14px;
             font-style: semibold;
             color: #FFFFFF;
         }
-      
+
         p{
             display: flex;
             flex-wrap: wrap;
@@ -759,16 +752,14 @@
             margin-left: 7%;
             width:600px;
         }
-        
+
         #icone{
             width:48px;
             height:48px;
             margin-right:20%;
             margin-left: 20%;
-                
-        }    
+
+        }
       }
 >>>>>>> 8ff324e8d8bb3fbe888eb8cef90eaf2871fcbb55
 */
-  
-

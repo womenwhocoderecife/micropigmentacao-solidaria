@@ -1,29 +1,43 @@
-import React from "react";
-import "./style.css";
-import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
-import logo from "../../assets/images/logo.svg";
+import React from 'react'
+import './style.css'
+import facebook from '../../assets/icons/facebook.svg'
+import instagram from '../../assets/icons/instagram.svg'
+import logo from '../../assets/imgs/logo.svg'
 
-const Footer = () => <section className="footer">
-  
+const Footer = () => (
+  <section className="footer">
     <div className="footer__container">
-      
       <div className="footer__list__logo">
         <figure className="footer__figure__logo">
-          <img className="footer__logo" src={logo} alt="logo" title="Valentes e Bonitas" />
+          <img
+            className="footer__logo"
+            src={logo}
+            alt="logo"
+            title="Valentes e Bonitas"
+          />
         </figure>
         <ul className="footer__list__social-network">
           <li className="footer__list__item__social-network">
             <a href="">
               <figure className="footer__figure__social-network">
-                <img className="footer__img__social-network" src={facebook} alt="facebook" title="facebook" />
+                <img
+                  className="footer__img__social-network"
+                  src={facebook}
+                  alt="facebook"
+                  title="facebook"
+                />
               </figure>
             </a>
           </li>
           <li className="footer__list__item__social-network">
             <a href="">
               <figure className="footer__figure__social-network">
-                <img className="footer__img__social-network" src={instagram} alt="instagram" title="instagram" />
+                <img
+                  className="footer__img__social-network"
+                  src={instagram}
+                  alt="instagram"
+                  title="instagram"
+                />
               </figure>
             </a>
           </li>
@@ -80,13 +94,12 @@ const Footer = () => <section className="footer">
           </li>
         </ul>
       </div>
-
     </div>
 
     <div className="footer__copyright">
       ©2019 - desenvolvido por Women Dev Projects
     </div>
-
   </section>
+)
 
-export default Footer;
+export default Footer

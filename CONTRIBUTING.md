@@ -48,8 +48,8 @@ $ git push origin name-of-new-branch
 
 **10 -** Go to [online repository](https://github.com/womenwhocoderecife/micropigmentacao-solidaria) and click on button `Compare and pull request`
 
-![pullRequest](./src/assets/imgs/contributing/pull-request.png)
+![pullRequest](./src/assets/imgs/pull-request.png)
 
 **11 -** Make the pull request and let the reviewer know (click on the highlighted buttons)
 
-![review](./src/assets/imgs/contributing/review.png)
+![review](./src/assets/imgs/review.png)
