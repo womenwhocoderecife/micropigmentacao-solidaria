@@ -87,6 +87,6 @@ const Footer = () => <section className="footer">
       ©2019 - desenvolvido por Women Dev Projects
     </div>
 
-  </section>;
+  </section>
 
 export default Footer;
