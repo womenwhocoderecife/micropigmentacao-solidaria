@@ -82,11 +82,10 @@
   margin-top: 40px;
 }
 
-
 .whoDoes__team {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 @media (min-width: 1280px) {
