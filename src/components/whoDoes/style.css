@@ -30,7 +30,7 @@
 
 .whoDoes__body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 @media (min-width: 1280px) {
@@ -83,24 +83,6 @@
 }
 
 
-.whoDoes__image-team {
-  width: 90px;
-  object-fit: cover;
-  justify-content: space-between;
-}
-
-@media (min-width: 1280px) {
-  .about__image-team {
-    width: 165px;
-    height: 143px;
-  }
-}
-
-.whoDoes__body {
-  display: flex;
-  flex-direction: column;
-}
-
 .whoDoes__team {
   display: flex;
   flex-direction: row;
@@ -116,6 +98,18 @@
   }
 }
 
+.whoDoes__image-team {
+  width: 90px;
+  object-fit: cover;
+  justify-content: space-between;
+}
+
+@media (min-width: 1280px) {
+  .whoDoes__image-team {
+    width: 165px;
+    height: 143px;
+  }
+}
 
 
 
