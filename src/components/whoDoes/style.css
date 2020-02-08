@@ -154,6 +154,7 @@
 @media (min-width: 1280px) {
   .whoDoes__team {
     justify-content: flex-start;
+    margin-top: 20px;
     padding-left: 20px;
   }
 }
