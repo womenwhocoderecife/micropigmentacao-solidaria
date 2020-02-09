@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f54bdb69.chunk.css",
-    "main.js": "/static/js/main.611b17fc.chunk.js",
-    "main.js.map": "/static/js/main.611b17fc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0e2ae88d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0e2ae88d.js.map",
-    "static/js/2.75d02df3.chunk.js": "/static/js/2.75d02df3.chunk.js",
-    "static/js/2.75d02df3.chunk.js.map": "/static/js/2.75d02df3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.253f5c07436901db9e63327fba2a9d1f.js": "/precache-manifest.253f5c07436901db9e63327fba2a9d1f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f54bdb69.chunk.css.map": "/static/css/main.f54bdb69.chunk.css.map",
-    "static/media/about.png": "/static/media/about.21ba73a5.png",
-    "static/media/facebook.svg": "/static/media/facebook.537e24dc.svg",
-    "static/media/hamburger.svg": "/static/media/hamburger.0f59034e.svg",
-    "static/media/style.css": "/static/media/hero_max.e5a868cb.png",
-    "static/media/instagram.svg": "/static/media/instagram.f1580010.svg",
-    "static/media/logo.svg": "/static/media/logo.1ac7fef1.svg",
-    "static/media/logo.png": "/static/media/logo.8a25e27c.png"
+    "main.css": "/micropigmentacao-solidaria/static/css/main.11c489a6.chunk.css",
+    "main.js": "/micropigmentacao-solidaria/static/js/main.ec04223c.chunk.js",
+    "main.js.map": "/micropigmentacao-solidaria/static/js/main.ec04223c.chunk.js.map",
+    "runtime-main.js": "/micropigmentacao-solidaria/static/js/runtime-main.6176ff9e.js",
+    "runtime-main.js.map": "/micropigmentacao-solidaria/static/js/runtime-main.6176ff9e.js.map",
+    "static/js/2.75d02df3.chunk.js": "/micropigmentacao-solidaria/static/js/2.75d02df3.chunk.js",
+    "static/js/2.75d02df3.chunk.js.map": "/micropigmentacao-solidaria/static/js/2.75d02df3.chunk.js.map",
+    "index.html": "/micropigmentacao-solidaria/index.html",
+    "precache-manifest.46fb38164e91ed7c6c8ea78d86a5e0f6.js": "/micropigmentacao-solidaria/precache-manifest.46fb38164e91ed7c6c8ea78d86a5e0f6.js",
+    "service-worker.js": "/micropigmentacao-solidaria/service-worker.js",
+    "static/css/main.11c489a6.chunk.css.map": "/micropigmentacao-solidaria/static/css/main.11c489a6.chunk.css.map",
+    "static/media/about.png": "/micropigmentacao-solidaria/static/media/about.21ba73a5.png",
+    "static/media/facebook.svg": "/micropigmentacao-solidaria/static/media/facebook.537e24dc.svg",
+    "static/media/hamburger.svg": "/micropigmentacao-solidaria/static/media/hamburger.0f59034e.svg",
+    "static/media/style.css": "/micropigmentacao-solidaria/static/media/hero_max.e5a868cb.png",
+    "static/media/instagram.svg": "/micropigmentacao-solidaria/static/media/instagram.f1580010.svg",
+    "static/media/logo.svg": "/micropigmentacao-solidaria/static/media/logo.1ac7fef1.svg",
+    "static/media/logo.png": "/micropigmentacao-solidaria/static/media/logo.8a25e27c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e2ae88d.js",
+    "static/js/runtime-main.6176ff9e.js",
     "static/js/2.75d02df3.chunk.js",
-    "static/css/main.f54bdb69.chunk.css",
-    "static/js/main.611b17fc.chunk.js"
+    "static/css/main.11c489a6.chunk.css",
+    "static/js/main.ec04223c.chunk.js"
   ]
 }
