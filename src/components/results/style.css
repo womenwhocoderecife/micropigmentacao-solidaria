@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: rgb(233,225,225);
 }
 
 .title_results{
@@ -28,9 +29,15 @@
 
 .text_results{
     border: 4px solid black;
-    width: 400px;
+    width: 500px;
     min-width: 250px;
     font-style: italic;
+    margin-bottom: 91px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 1em;
+    color: #8e6769;
+
     
 }
 
