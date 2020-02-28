@@ -18,8 +18,11 @@
 }
 
 .title_results{
-    border: 4px solid black;
-    width: 200px;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 3.125em;
+    text-align: center;
+    color: #430307;
 
 }
 
