@@ -5,6 +5,7 @@ import Hero from "../Hero";
 import About from "../About";
 import Footer from "../Footer";
 import ImpactedWomen from "../ImpactedWomen";
+import Results from "../Resultados";
 
 const App = () => (
   <div className="App">
@@ -12,7 +13,9 @@ const App = () => (
     <Hero />
     <About />
     <ImpactedWomen/>
+    <Results/>
     <Footer />
+    
   </div>
 );
 
