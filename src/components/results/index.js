@@ -35,6 +35,9 @@ import { Slide } from 'react-slideshow-image';
 import foto1 from './assets/1.png'
 import foto2 from './assets/2.png'
 import foto3 from './assets/3.png'
+import foto4 from './assets/4.png'
+import foto5 from './assets/5.png'
+import foto6 from './assets/6.png'
 import './style.css'
 
 
@@ -42,7 +45,11 @@ import './style.css'
 const slideImages = [
     'assets/1.png',
     'assets/2.png',
-    'assets/3.png'
+    'assets/3.png',
+    'assets/4.png',
+    'assets/5.png',
+    'assets/6.png'
+
 ];
 
 const properties = {
@@ -72,6 +79,15 @@ const Results = () => {
           </div>
           <div className="each-slide">
              <img className="foto3" src={foto3}/>
+          </div>
+          <div className="each-slide">
+             <img className="foto4" src={foto4}/>
+          </div>
+          <div className="each-slide">
+             <img className="foto5" src={foto5}/>
+          </div>
+          <div className="each-slide">
+             <img className="foto6" src={foto6}/>
           </div>
         </Slide>
       </div>
