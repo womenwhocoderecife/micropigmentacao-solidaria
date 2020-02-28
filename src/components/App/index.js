@@ -12,9 +12,10 @@ const App = () => (
     <Header />
     <Hero />
     <About />
+    <Results />
     <ImpactedWomen/>
     <Footer />
-    <Results />
+  
   </div>
 );
 

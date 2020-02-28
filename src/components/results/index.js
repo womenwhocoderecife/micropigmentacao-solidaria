@@ -1,16 +1,31 @@
-import React from 'react'
+import React, { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import foto1 from './assets/1.png'
+import foto2 from './assets/2.png'
+import foto3 from './assets/3.png'
 import './style.css'
 
-const Results = () => (
-  <section className="container_results">
-    <h1 className="title_results">Resultados</h1>
-        <p className="text_results">O conteúdo das imagens é de propriedade exclusiva do Projeto 
-        Micropigmentação Solidária e seu uso foi autorizado pelas 
-        usuárias. As fotografias são protegidas por leis de direito 
-        patrimonial e não podem ser copiadas ou transmitidas
-         por qualquer meio sem a prévia autorização</p>
-  </section>
-)
 
-export default  Results
-
+ 
+class Results extends Component {
+    render() {
+        return (
+            <Carousel className="container_carousel" >
+            <div>
+                <img className="img_carousel" src={foto1} />
+                <p className="legend">Legend 1</p>
+            </div>
+            <div>
+                <img src={foto2} />
+                <p className="legend">Legend 2</p>
+            </div>
+            <div>
+                <img src={foto3} />
+                <p className="legend">Legend 3</p>
+            </div>
+        </Carousel>
+        );
+    }
+}
+export default Results

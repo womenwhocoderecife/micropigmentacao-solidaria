@@ -1,4 +1,24 @@
-.container_results{
+.container_carousel{
+    background-color: pink;
+    width:800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/*.container_results{
     border: 4px solid black;
     display: flex;
     flex-direction: column;
@@ -18,4 +38,4 @@
     min-width: 250px;
     font-style: italic;
     
-}
+}*/
