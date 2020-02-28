@@ -33,6 +33,8 @@ export default Results
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import foto1 from './assets/1.png'
+import foto2 from './assets/2.png'
+import foto3 from './assets/3.png'
 import './style.css'
 
 
@@ -54,25 +56,45 @@ const properties = {
   }
 }
 
+
 const Results = () => {
     return (
-      <div className="slide-container">
+        <div className="results_container">
+        <h1 class="title_results">Resultados</h1>
+
+        <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide">
             <img className="foto1" src={foto1}/>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
-            </div>
+            <img className="foto2" src={foto2}/>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
-            </div>
+             <img className="foto3" src={foto3}/>
           </div>
         </Slide>
       </div>
+
+        <p class="text_results">O conteúdo das imagens é de propriedade exclusiva do Projeto 
+        Micropigmentação Solidária e seu uso foi autorizado pelas 
+        usuárias. As fotografias são protegidas por leis de direito 
+        patrimonial e não podem ser copiadas ou transmitidas
+         por qualquer meio sem a prévia autorização</p>
+        </div>
     )
 }
 export default Results
+/*<div className="slide-container">
+        <Slide {...properties}>
+          <div className="each-slide">
+            <img className="foto1" src={foto1}/>
+          </div>
+          <div className="each-slide">
+            <img className="foto2" src={foto2}/>
+          </div>
+          <div className="each-slide">
+             <img className="foto3" src={foto3}/>
+          </div>
+        </Slide>
+      </div>*/ 
