@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-const results = () => (
+const Results = () => (
   <section className="container_results">
     <h1 className="title_results">Resultados</h1>
         <p className="text_results">O conteúdo das imagens é de propriedade exclusiva do Projeto 
@@ -12,4 +12,5 @@ const results = () => (
   </section>
 )
 
-export default results
+export default  Results
+

@@ -5,7 +5,7 @@ import Hero from "../Hero";
 import About from "../About";
 import Footer from "../Footer";
 import ImpactedWomen from "../ImpactedWomen";
-import results from "../results";
+import Results from "../Results";
 
 const App = () => (
   <div className="App">
@@ -14,6 +14,7 @@ const App = () => (
     <About />
     <ImpactedWomen/>
     <Footer />
+    <Results />
   </div>
 );
 
