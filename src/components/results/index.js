@@ -1,54 +1,37 @@
-/*import React, { Component } from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import foto1 from './assets/1.png'
-import foto2 from './assets/2.png'
-import foto3 from './assets/3.png'
-import './style.css'
 
-
- 
-class Results extends Component {
-    render() {
-        return (
-            <Carousel className="container_carousel" >
-            <div>
-                <img className="img_carousel" src={foto1} />
-                <p className="legend">Legend 1</p>
-            </div>
-            <div>
-                <img src={foto2} />
-                <p className="legend">Legend 2</p>
-            </div>
-            <div>
-                <img src={foto3} />
-                <p className="legend">Legend 3</p>
-            </div>
-        </Carousel>
-        );
-    }
-}
-export default Results
-*/
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import foto1 from './assets/1.png'
-import foto2 from './assets/2.png'
-import foto3 from './assets/3.png'
-import foto4 from './assets/4.png'
-import foto5 from './assets/5.png'
-import foto6 from './assets/6.png'
+
+import antes1 from './assets/antes1.png'
+import depois1 from './assets/depois1.png'
+import antes2 from './assets/antes2.png'
+import depois2 from './assets/depois2.png'
+import antes3 from './assets/antes3.png'
+import depois3 from './assets/depois3.png'
+import antes4 from './assets/antes4.png'
+import depois4 from './assets/depois4.png'
+import antes5 from './assets/antes5.png'
+import depois5 from './assets/depois5.png'
+import antes6 from './assets/antes6.png'
+import depois6 from './assets/depois6.png'
 import './style.css'
 
 
 
 const slideImages = [
-    'assets/1.png',
-    'assets/2.png',
-    'assets/3.png',
-    'assets/4.png',
-    'assets/5.png',
-    'assets/6.png'
+    
+    'assets/antes1.png',
+    'assets/depois1.png',
+    'assets/antes2.png',
+    'assets/depois2.png',
+    'assets/antes3.png',
+    'assets/depois3.png',
+    'assets/antes4.png',
+    'assets/depois4.png',
+    'assets/antes5.png',
+    'assets/depois5.png',
+    'assets/antes6.png',
+    'assets/depois6.png'
 
 ];
 
@@ -66,28 +49,70 @@ const properties = {
 
 const Results = () => {
     return (
-        <div className="results_container">
+      <div className="results_container">
         <h1 class="title_results">Resultados</h1>
 
         <div className="slide-container">
         <Slide {...properties}>
           <div className="each-slide">
-            <img className="foto1" src={foto1}/>
+             <div className="antes_depois">
+              <img className="foto" src={antes1}/>
+              <h3>Antes</h3>
+             </div>
+             <div className="antes_depois">
+              <img className="foto" src={depois1}/>  
+              <h3>Depois</h3>
+              </div>
           </div>
           <div className="each-slide">
-            <img className="foto2" src={foto2}/>
+            <div className="antes_depois">
+             <img className="foto" src={antes2}/>
+             <h3>Antes</h3>
+            </div>
+            <div className="antes_depois">
+             <img className="foto" src={depois2}/>
+             <h3>Depois</h3>
+            </div>
           </div>
           <div className="each-slide">
-             <img className="foto3" src={foto3}/>
+            <div className="antes_depois">
+             <img className="foto" src={antes3}/>
+             <h3>Antes</h3>
+            </div> 
+            <div className="antes_depois">
+             <img className="foto" src={depois3}/>
+             <h3>Depois</h3>
+            </div>
           </div>
           <div className="each-slide">
-             <img className="foto4" src={foto4}/>
+            <div className="antes_depois">
+             <img className="foto" src={antes4}/>
+             <h3>Antes</h3>
+            </div> 
+            <div className="antes_depois">
+              <img className="foto" src={depois4}/>
+              <h3>Depois</h3>
+            </div>
           </div>
           <div className="each-slide">
-             <img className="foto5" src={foto5}/>
+           <div className="antes_depois">
+             <img className="foto" src={antes5}/>
+              <h3>Antes</h3>
+            </div> 
+           <div className="antes_depois">
+            <img className="foto" src={depois5}/>
+            <h3>Depois</h3>
+           </div>
           </div>
           <div className="each-slide">
-             <img className="foto6" src={foto6}/>
+           <div className="antes_depois">
+             <img className="foto" src={antes6}/>
+              <h3>Antes</h3>
+            </div> 
+            <div className="antes_depois"> 
+             <img className="foto" src={depois6}/>
+             <h3>Depois</h3>
+            </div> 
           </div>
         </Slide>
       </div>
@@ -101,16 +126,4 @@ const Results = () => {
     )
 }
 export default Results
-/*<div className="slide-container">
-        <Slide {...properties}>
-          <div className="each-slide">
-            <img className="foto1" src={foto1}/>
-          </div>
-          <div className="each-slide">
-            <img className="foto2" src={foto2}/>
-          </div>
-          <div className="each-slide">
-             <img className="foto3" src={foto3}/>
-          </div>
-        </Slide>
-      </div>*/ 
+
