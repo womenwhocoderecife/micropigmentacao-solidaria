@@ -27,7 +27,8 @@
 }
 
 .text_results{
-    padding: 30px;
+    padding:40px;
+    margin-top: 60px;
     width: 500px;
     min-width: 250px;
     font-style: italic;
@@ -41,31 +42,35 @@
 }
 
 .slide-container {
-    width:900px;
+    justify-content: center;
+    width:1100px;
     height:350px;
-    margin: auto; }
+    
+    }
   
   h3 {
     text-align: center; }
   
-  .each-slide > div {
+  .each-slide {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 400px;
   }
   
   
  
-  .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
-      width: 100%;
+  .foto{
+      width: 500px;
       height: 350px;
+      padding:15px;
   }
 
 
-
-
+.antes_depois{
+  flex-direction: column;
+}
 
 
 
