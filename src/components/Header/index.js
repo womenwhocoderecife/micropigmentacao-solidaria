@@ -34,7 +34,7 @@ const Header = () =>
 					<a className="menu_list_link" href="#faq">faq</a>
 				</li>
 				<li className="menu_list_item">
-					<a className="menu_list_link" href="#howToHelp">como ajudar</a>
+					<a className="menu_list_link_help" href="#howToHelp">como ajudar?</a>
 				</li>
 			</ul>
 		</nav>

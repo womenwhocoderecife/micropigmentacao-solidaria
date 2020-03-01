@@ -1,21 +1,29 @@
+@font-face {
+	font-family: Nunito-SemiBold;
+	src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Nunito-ExtraBold;
+	src: url(../../assets/fonts/Nunito-ExtraBold.ttf);
+}
+
 /*/-_-_-_-_-_-_-_-_    Header   -_-_-_-_-_-_-_-_ /*/
 
 .menu_nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 14px 80px;
+	padding: 24px 80px;
 }
-
 
 /*/-_-_-_-_-_-_-_-_-_   Logo  _-_-_-_-_-_-_-_-_ /*/
-  
+
 .menu_img {
 	object-fit: contain;
-	width: 140px;
+	width: 120px;
 }
-	
- 
+
 /*/-_-_-_-_-_-_   Menu Hamburguer  -_-_-_-_-_-_ /*/
 
 .menu_hamburger {
@@ -33,11 +41,10 @@
 	}
 }
 
-
 /*/-_-_-_-_-_-_-_-_-_   Menu  _-_-_-_-_-_-_-_-_ /*/
 
 .menu {
-	width: 80%;
+	width: 66%;
 	padding: 0;
 	display: none;
 	justify-content: flex-end;
@@ -49,7 +56,6 @@
 	}
 }
 
-
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
 .menu_list{
@@ -58,15 +64,15 @@
 	justify-content: space-between;
 	padding: 0;
 	width: 100%;
+	margin-right: 1rem;
 }
-
 
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
 .menu_list_item {
 	color: #B76882;
+	font-family: Nunito-SemiBold;
 }
-
 
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
@@ -81,6 +87,22 @@
 }
 
 .menu_list_link:hover {
+	color: #B76882;
+	border-bottom: 2px solid #430307; 
+}
+
+.menu_list_link_help{
+	text-decoration: none;
+	color: #B76882;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: Nunito-ExtraBold;
+}
+
+.menu_list_link_help:hover {
 	color: #B76882;
 	border-bottom: 2px solid #430307; 
 }
