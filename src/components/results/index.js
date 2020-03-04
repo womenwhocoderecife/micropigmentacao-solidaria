@@ -43,6 +43,8 @@ const properties = {
   arrows: true,
   useKeyboardArrows: true,
   emulateTouch: true,
+  autoPlay: false,
+  
   onChange: (oldIndex, newIndex) => {
     console.log(`slide transition from ${oldIndex} to ${newIndex}`);
   }
