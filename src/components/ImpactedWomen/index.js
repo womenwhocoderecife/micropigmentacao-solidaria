@@ -8,7 +8,7 @@ const ImpactedWomen = () => (
     <h1 className="title">Mulheres Impactadas</h1>
 
     <div class="container">
-      <Youtube video="Vtb03-wwY3c" autoplay height="350" width="525" />
+      <Youtube video="Vtb03-wwY3c"  height="350" width="525" />
       <div class="content">
         <h2 className="name">Rose</h2>
         <p className="content_Description">
@@ -21,7 +21,7 @@ const ImpactedWomen = () => (
     </div>
 
     <div class="container">
-      <Youtube video="rDvWnNJM5tE" autoplay height="350" width="525" />
+      <Youtube video="rDvWnNJM5tE"  height="350" width="525" />
       <div class="content">
         <h2 className="name">Jane</h2>
         <p className="content_Description">
