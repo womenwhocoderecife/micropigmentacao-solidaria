@@ -4,7 +4,7 @@ import icone from '../../assets/imgs/icone_play.png'
 
 const Hero = () => (
   <section className="container_hero">
-    <section className = "teste">
+    <section className = "content_hero">
       <h1 className="title_hero">Bonita é ser valente</h1>
       <p className="text_hero">
         Lorem ipsum dolor sit amet, consectetur elit, sed do eiut labore et dolore
