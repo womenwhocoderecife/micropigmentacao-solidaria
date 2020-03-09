@@ -27,9 +27,9 @@
 }
 
 .about__text__title {
-  font-family: var(--font-title);
+  font-family: var(--primary-font);
   font-size: var(--size-h2);
-  color: var(--color-h2);
+  color: var(--highlight-color);
   text-align: center;
   padding: 0 20px;
 }
@@ -43,9 +43,9 @@
 }
 
 .about__text__paragraph {
-  font-family: var(--font-p);
+  font-family: var(---secondary-font);
   font-size: var(--size-p);
-  color: var(--color-p);
+  color: var(--primary-text-color);
   text-align: justify;
   line-height: 2;
   padding: 0 50px;
@@ -65,7 +65,7 @@
 }
 
 .about__image {
-  background: var(--color-background-image);
+  background: var(--highlight-color);
   width: 100%;
   height: auto;
   padding: 70px;

@@ -67,7 +67,7 @@
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
 
 .menu_list_item {
-  color: #b76882;
+  color: var(--secondary-text-color);
 }
 
 /* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
@@ -75,7 +75,7 @@
 .menu_list_link {
   display: flex;
   text-decoration: none;
-  color: #b76882;
+  color: var(--secondary-text-color);
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
@@ -83,6 +83,6 @@
 }
 
 .menu_list_link:hover {
-  color: #b76882;
-  border-bottom: 2px solid #430307;
+  color: var(--secondary-text-color);
+  border-bottom: 2px solid var(--highlight-color);
 }

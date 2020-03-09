@@ -1,0 +1,13 @@
+:root {
+  --highlight-color: #430307;
+  --primary-text-color: #8e6769;
+  --secondary-text-color: #b76882;
+
+  --primary-font: 'Nunito', sans-serif;
+  --secondary-font: 'Open Sans', sans-serif;
+
+  --size-title: 14px;
+  --size-item: 14px;
+  --size-h2: 50px;
+  --size-p: 16px;
+}
