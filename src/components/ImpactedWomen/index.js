@@ -7,9 +7,9 @@ const ImpactedWomen = () => (
   <section className="impacted-women">
     <h1 className="impacted-women__title">Mulheres Impactadas</h1>
 
-    <div class="impacted-women__container">
+    <div className="impacted-women__container">
       <Youtube video="Vtb03-wwY3c" height="350" width="525" />
-      <div class="impacted-women__content">
+      <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Rose</h2>
         <p className="impacted-women__content__description">
           Conheceu o projeto de Micropigmentação Soliária no Hospital do Câncer,
@@ -20,9 +20,9 @@ const ImpactedWomen = () => (
       </div>
     </div>
 
-    <div class="impacted-women__container">
+    <div className="impacted-women__container">
       <Youtube video="rDvWnNJM5tE" height="350" width="525" />
-      <div class="impacted-women__content">
+      <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Jane</h2>
         <p className="impacted-women__content__description">
           Não sabia que era possível fazer a reconstrução de auréola e ficou
