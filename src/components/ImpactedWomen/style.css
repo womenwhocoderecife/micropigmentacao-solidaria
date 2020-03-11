@@ -8,16 +8,39 @@
 }
 
 .title {
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-style: normal;
   font-size: 3.125em;
   text-align: center;
   color: #430307;
   width: auto;
-  border: 2px solid black ;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+#widget2, #widget4{
+  width: 490px;
+  height: 275px;
+}
+
+@media (max-width: 700px) {
+
+  .title{
+    width: 400px;
+
+  }
+
+  #widget2, #widget4{
+    width: 350px;
+    height: 190px;
+  }
+
+  .content{
+    margin-left: -80px;
+  }
+
+ 
 }
 
 .container {
@@ -33,7 +56,6 @@
   margin-bottom: 115px;
   width: 525px;
   height: 346px;
-  background: rgba(67, 3, 7, 0.2);
 }
 
 .content {
@@ -58,7 +80,7 @@
   width: 360px;
 
   margin-bottom: 91px;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 1em;
@@ -80,20 +102,13 @@
 
   .title {
     margin-bottom: 63px;
-    width: 400px;
-
   }
 
   .container {
     justify-content: center;
-    border: 2px solid black;
   }
 
-  #widget2, #widget4{
-    border: 10px solid blue;
-    width: 200px;
-    height: 200px;
-  }
+  
 }
 
 @media (min-width: 1440px) {
