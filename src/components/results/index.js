@@ -2,36 +2,41 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
-import antes1 from './assets/antes1.png'
-import depois1 from './assets/depois1.png'
-import antes2 from './assets/antes2.png'
-import depois2 from './assets/depois2.png'
-import antes3 from './assets/antes3.png'
-import depois3 from './assets/depois3.png'
-import antes4 from './assets/antes4.png'
-import depois4 from './assets/depois4.png'
-import antes5 from './assets/antes5.png'
-import depois5 from './assets/depois5.png'
-import antes6 from './assets/antes6.png'
-import depois6 from './assets/depois6.png'
+import foto1 from './assets/1.png'
+import foto2 from './assets/2.png'
+import foto3 from './assets/3.png'
+import foto4 from './assets/4.png'
+import foto5 from './assets/5.png'
+import foto6 from './assets/6.png'
+import foto7 from './assets/7.png'
+import foto8 from './assets/8.png'
+import foto9 from './assets/9.png'
+import foto10 from './assets/10.png'
+import foto11 from './assets/11.png'
+import foto12 from './assets/12.png'
+import foto13 from './assets/13.png'
+import foto14 from './assets/14.png'
+
 import './style.css'
 
 
 
 const slideImages = [
     
-    'assets/antes1.png',
-    'assets/depois1.png',
-    'assets/antes2.png',
-    'assets/depois2.png',
-    'assets/antes3.png',
-    'assets/depois3.png',
-    'assets/antes4.png',
-    'assets/depois4.png',
-    'assets/antes5.png',
-    'assets/depois5.png',
-    'assets/antes6.png',
-    'assets/depois6.png'
+    'assets/1.png',
+    'assets/2.png',
+    'assets/3.png',
+    'assets/4.png',
+    'assets/5.png',
+    'assets/6.png',
+    'assets/7.png',
+    'assets/8.png',
+    'assets/9.png',
+    'assets/10.png',
+    'assets/11.png',
+    'assets/12.png',
+    'assets/13.png',
+    'assets/14.png'
 
 ];
 
@@ -60,61 +65,71 @@ const Results = () => {
         <Slide {...properties}>
           <div className="each-slide">
              <div className="antes_depois">
-              <img className="foto" src={antes1}/>
+              <img className="foto" src={foto1}/>
               <h3>Antes</h3>
              </div>
              <div className="antes_depois">
-              <img className="foto" src={depois1}/>  
+              <img className="foto" src={foto2}/>  
               <h3>Depois</h3>
               </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
-             <img className="foto" src={antes2}/>
+             <img className="foto" src={foto3}/>
              <h3>Antes</h3>
             </div>
             <div className="antes_depois">
-             <img className="foto" src={depois2}/>
+             <img className="foto" src={foto4}/>
              <h3>Depois</h3>
             </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
-             <img className="foto" src={antes3}/>
+             <img className="foto" src={foto5}/>
              <h3>Antes</h3>
             </div> 
             <div className="antes_depois">
-             <img className="foto" src={depois3}/>
+             <img className="foto" src={foto6}/>
              <h3>Depois</h3>
             </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
-             <img className="foto" src={antes4}/>
+             <img className="foto" src={foto7}/>
              <h3>Antes</h3>
             </div> 
             <div className="antes_depois">
-              <img className="foto" src={depois4}/>
+              <img className="foto" src={foto8}/>
               <h3>Depois</h3>
             </div>
           </div>
           <div className="each-slide">
            <div className="antes_depois">
-             <img className="foto" src={antes5}/>
+             <img className="foto" src={foto9}/>
               <h3>Antes</h3>
             </div> 
            <div className="antes_depois">
-            <img className="foto" src={depois5}/>
+            <img className="foto" src={foto10}/>
             <h3>Depois</h3>
            </div>
           </div>
           <div className="each-slide">
            <div className="antes_depois">
-             <img className="foto" src={antes6}/>
+             <img className="foto" src={foto11}/>
               <h3>Antes</h3>
             </div> 
             <div className="antes_depois"> 
-             <img className="foto" src={depois6}/>
+             <img className="foto" src={foto12}/>
+             <h3>Depois</h3>
+            </div> 
+          </div>
+          <div className="each-slide">
+           <div className="antes_depois">
+             <img className="foto" src={foto13}/>
+              <h3>Antes</h3>
+            </div> 
+            <div className="antes_depois"> 
+             <img className="foto" src={foto14}/>
              <h3>Depois</h3>
             </div> 
           </div>
