@@ -8,75 +8,107 @@
 	src: url(../../assets/fonts/Nunito-ExtraBold.ttf);
 }
 
-/*/-_-_-_-_-_-_-_-_    Header   -_-_-_-_-_-_-_-_ /*/
-
-.menu_nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 24px 80px;
+.menu-container {
+	position: relative;
 }
-
-/*/-_-_-_-_-_-_-_-_-_   Logo  _-_-_-_-_-_-_-_-_ /*/
-
-.menu_img {
-	object-fit: contain;
-	width: 120px;
-}
-
-/*/-_-_-_-_-_-_   Menu Hamburguer  -_-_-_-_-_-_ /*/
 
 .menu_hamburger {
-	border: 0;
-	padding: 10px 40px;
+	display: block;
+	position: absolute;
 	font-size: 16px;
 	cursor: pointer;
+	padding: 10px 40px;
 	right: 20px;
-	display: flex;
+	top: 20px;
+	border: 0;
+	text-align: center;
+	background: transparent;
+	color: #B76882;
+	outline: none;
 }
 
-@media (min-width: 980px){
-  .menu_hamburger {
+.menu_show {
+	display: none;
+}
+
+@media (min-width: 890px){
+	.menu_show {
+		display: flex;
+		
+	}
+}
+
+@media (min-width: 890px){
+	.menu_hamburger {
 		display: none;
 	}
 }
 
-/*/-_-_-_-_-_-_-_-_-_   Menu  _-_-_-_-_-_-_-_-_ /*/
-
 .menu {
-	width: 66%;
-	padding: 0;
-	display: none;
-	justify-content: flex-end;
-	}
+	width: 100%;
+	height: 100%;
+	background: #fff; 
+	align-items: center;
+	padding-top: 10px;
+}
 
 @media (min-width: 980px){
-  .menu {
-		display: flex;
+	.menu {
+		width: 100%;
+		height: 100%;
+		background: none;
+		flex-direction: row;
+		padding: 0;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 24px 80px;
 	}
 }
 
-/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
-
-.menu_list{
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
-	padding: 0;
-	width: 100%;
-	margin-right: 1rem;
+.menu_logo{
+	box-sizing: border-box;
+	object-fit: contain;
+	
+	/* position: absolute; */
+	
 }
 
-/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
+.menu_img {
+	width: 100px;
+	padding: 24px 0 0 80px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+.menu_list{
+	margin-bottom: 20px;
+	padding: 80px 0 0 30px;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media (min-width: 890px){
+  .menu_list {
+		flex-direction: column;
+		justify-content: flex-end;
+		flex-direction: row;
+		margin: 0;
+		padding: 0;
+	}
+}
 
 .menu_list_item {
 	color: #B76882;
 	font-family: Nunito-SemiBold;
+	margin: 10px;
 }
 
-/* - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ - _ */
-
-  .menu_list_link {
+.menu_list_link {
 	text-decoration: none;
 	color: #B76882;
 	text-transform: uppercase;
@@ -84,6 +116,8 @@
 	text-align: center;
 	font-size: 16px;
 	line-height: 22px;
+	padding: 5px;
+	width: 100%;
 }
 
 .menu_list_link:hover {
@@ -99,6 +133,8 @@
 	text-align: center;
 	font-size: 16px;
 	line-height: 22px;
+	padding: 5px;
+	width: 100%;
 	font-family: Nunito-ExtraBold;
 }
 
