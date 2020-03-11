@@ -6,6 +6,7 @@ import ImpactedWomen from '../ImpactedWomen'
 import Footer from "../Footer";
 import Faq  from "../Faq";
 import HowToHelp from "../HowToHelp";
+import HowToParticipate from "../HowToParticipate"
 
 const App = () => (
   <>
@@ -13,8 +14,9 @@ const App = () => (
     <Hero />
     <About />
     <ImpactedWomen />
-    <Faq />
+    <HowToParticipate/>
     <HowToHelp/>
+    <Faq />
     <Footer />
   </>
 )
