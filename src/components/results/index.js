@@ -66,71 +66,71 @@ const Results = () => {
           <div className="each-slide">
              <div className="antes_depois">
               <img className="foto" src={foto1}/>
-              <h3>Antes</h3>
+              <h3 className= "before_after_results">Antes</h3>
              </div>
              <div className="antes_depois">
               <img className="foto" src={foto2}/>  
-              <h3>Depois</h3>
+              <h3 className= "before_after_results">Depois</h3>
               </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
              <img className="foto" src={foto3}/>
-             <h3>Antes</h3>
+             <h3 className= "before_after_results">Antes</h3>
             </div>
             <div className="antes_depois">
              <img className="foto" src={foto4}/>
-             <h3>Depois</h3>
+             <h3 className= "before_after_results">Depois</h3>
             </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
              <img className="foto" src={foto5}/>
-             <h3>Antes</h3>
+             <h3 className= "before_after_results">Antes</h3>
             </div> 
             <div className="antes_depois">
              <img className="foto" src={foto6}/>
-             <h3>Depois</h3>
+             <h3 className= "before_after_results">Depois</h3>
             </div>
           </div>
           <div className="each-slide">
             <div className="antes_depois">
              <img className="foto" src={foto7}/>
-             <h3>Antes</h3>
+             <h3 className= "before_after_results">Antes</h3>
             </div> 
             <div className="antes_depois">
               <img className="foto" src={foto8}/>
-              <h3>Depois</h3>
+              <h3 className= "before_after_results">Depois</h3>
             </div>
           </div>
           <div className="each-slide">
            <div className="antes_depois">
              <img className="foto" src={foto9}/>
-              <h3>Antes</h3>
+              <h3 className= "before_after_results">Antes</h3>
             </div> 
            <div className="antes_depois">
             <img className="foto" src={foto10}/>
-            <h3>Depois</h3>
+            <h3 className= "before_after_results">Depois</h3>
            </div>
           </div>
           <div className="each-slide">
            <div className="antes_depois">
              <img className="foto" src={foto11}/>
-              <h3>Antes</h3>
+              <h3 className= "before_after_results">Antes</h3>
             </div> 
             <div className="antes_depois"> 
              <img className="foto" src={foto12}/>
-             <h3>Depois</h3>
+             <h3 className= "before_after_results">Depois</h3>
             </div> 
           </div>
           <div className="each-slide">
            <div className="antes_depois">
              <img className="foto" src={foto13}/>
-              <h3>Antes</h3>
+              <h3 className= "before_after_results">Antes</h3>
             </div> 
             <div className="antes_depois"> 
              <img className="foto" src={foto14}/>
-             <h3>Depois</h3>
+             <h3 className= "before_after_results">Depois</h3>
             </div> 
           </div>
         </Slide>

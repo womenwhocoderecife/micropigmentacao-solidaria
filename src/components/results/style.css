@@ -22,7 +22,7 @@
 }
 
 .title_results{
-    font-family: Nunito;
+    font-family: 'Nunito';
     font-style: normal;
     font-size: 3.125em;
     text-align: center;
@@ -48,8 +48,12 @@
     
     }
   
-  h3 {
-    text-align: center; }
+  .before_after_results {
+    text-align: center;
+    font-family: 'Nunito'; 
+    font-weight: bold;
+    color: #430307;
+  }
   
   .each-slide {
     display: flex;
