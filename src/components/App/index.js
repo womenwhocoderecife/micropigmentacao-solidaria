@@ -5,6 +5,7 @@ import About from "../About";
 import ImpactedWomen from '../ImpactedWomen'
 import Footer from "../Footer";
 import Faq  from "../Faq";
+import HowToHelp from "../HowToHelp";
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
     <About />
     <ImpactedWomen />
     <Faq />
+    <HowToHelp/>
     <Footer />
   </>
 )

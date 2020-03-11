@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+
+.main_cta{
+    width: 100%;
+    background:linear-gradient(116.96deg, #430307 -36.15%, rgba(183, 104, 130, 0.8) 57.04%, #430307 141%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.main_cta .main_cta_content{
+    max-width: 1440px;
+    margin: 44px auto;
+}
+
+
+.main_cta .main_cta_content h1{
+    font-size: 28px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+.main_cta .main_cta_content p{
+    font-size: 1em;
+    max-width: 629px;
+    margin: 33px;
+    color: #fff;
+    font-family: 'Open Sans';
+    line-height: 2em;
+    text-align: center;
+}
+
+
+.main_cta .main_cta_content .btn{
+    background-color: #fff;
+    color:#B76882;
+    font-size: 0.8em;
+    max-width: 224.39px;
+    height: 56px;
+    padding: 20px 61px;
+    margin:33px;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
