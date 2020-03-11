@@ -5,7 +5,7 @@ import Hero from "../Hero";
 import About from "../About";
 import Footer from "../Footer";
 import ImpactedWomen from "../ImpactedWomen";
-import Results from "../Results";
+import Results from "../Result";
 
 
 const App = () => (
