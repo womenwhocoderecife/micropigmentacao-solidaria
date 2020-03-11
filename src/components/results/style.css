@@ -111,6 +111,13 @@
   background: none;
 }
 
+@media (max-width: 600px){
+
+  .react-slideshow-container .nav {
+    align-self: flex-end;
+
+  }
+}
 .react-slideshow-container .nav >span{
   border-color: #54191D;
 }
