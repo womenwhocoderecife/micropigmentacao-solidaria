@@ -1,10 +1,10 @@
-import React from 'react'
-
-import Header from '../Header'
-import Hero from '../Hero'
-import About from '../About'
+import React from "react";
+import Header from "../Header";
+import Hero from "../Hero";
+import About from "../About";
 import ImpactedWomen from '../ImpactedWomen'
-import Footer from '../Footer'
+import Footer from "../Footer";
+import Faq  from "../Faq";
 
 const App = () => (
   <>
@@ -12,6 +12,7 @@ const App = () => (
     <Hero />
     <About />
     <ImpactedWomen />
+    <Faq />
     <Footer />
   </>
 )
