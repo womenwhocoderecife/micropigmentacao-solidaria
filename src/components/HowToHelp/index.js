@@ -10,7 +10,7 @@ const HowToHelp = () => (
         <header>
              <h1>Como Ajudar!</h1>
              <p> material utilizado no procedimento é 100% da clínica ou vindo de contribuição de voluntários. se você quer se tornar nosso parceiro e doar algum material, nós precisamos de materiais como tinta, agulha, algodão, luva, etc...</p>
-             <p><a href="#" class="btn">Quero Ajudar</a></p>
+             <p><a href="http://bit.ly/33aCPcA" class="btn">Quero Ajudar</a></p>
         </header>
         </div>
     </article>
