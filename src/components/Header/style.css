@@ -10,6 +10,8 @@
 
 .menu-container {
 	position: relative;
+	width: 100;
+	display: flex;
 }
 
 .menu_hamburger {
@@ -17,7 +19,7 @@
 	position: absolute;
 	font-size: 16px;
 	cursor: pointer;
-	padding: 10px 40px;
+	padding: 10px 16px;
 	right: 20px;
 	top: 20px;
 	border: 0;
@@ -32,9 +34,8 @@
 }
 
 @media (min-width: 890px){
-	.menu_show {
-		display: flex;
-		
+	.menu_show {	
+		display: flex;	
 	}
 }
 
@@ -62,33 +63,43 @@
 		align-items: flex-start;
 		justify-content: space-between;
 		padding: 24px 80px;
+		display: flex;
 	}
 }
 
 .menu_logo{
 	box-sizing: border-box;
-	object-fit: contain;
-	
-	/* position: absolute; */
-	
+	object-fit: contain;	
 }
 
 .menu_img {
 	width: 100px;
-	padding: 24px 0 0 80px;
+	padding: 24px 0 0 28px;
 	position: absolute;
 	top:0;
 	left: 0;
 }
 
+
+@media (min-width: 890px){
+	.menu_img {
+		width: 100px;
+		padding: 24px 0 0 80px;
+		position: absolute;
+		top:0;
+		left: 0;
+	}
+}
+
 .menu_list{
 	margin-bottom: 20px;
-	padding: 80px 0 0 30px;
-	width: 100%;
+	padding-left: 16px;
+	margin-top: 80px;
+	width: 1000px;
 	list-style: none;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	flex-direction: column;
 }
 
