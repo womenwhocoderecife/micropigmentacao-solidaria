@@ -1,0 +1,131 @@
+:root {
+  --color-background: #f2f2f2;
+  --color-h2: #430307;
+  --color-h3: #430307;
+  --color-h4: #8e6769;
+  --color-p: #8e6769;
+  --color-border: #430307;
+  --size-h2: 50px;
+  --size-h3: 28px;
+  --size-h4: 21px;
+  --size-p: 16px;
+  --font-title: 'Nunito', sans-serif;
+  --font-p: 'Open Sans', sans-serif;
+}
+
+.whoDoes {
+  background: var(--color-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes {
+    padding: 100px;
+  }
+}
+
+.whoDoes__title {
+  color: var(--color-h2);
+  font-family: var(--font-title);
+  font-size: var(--size-h2);
+  margin-bottom: 80px;
+  max-width: 1190px;
+  width: 100%;
+}
+
+.whoDoes__person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1190px;
+  width: 100%;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes__person {
+    flex-direction: row;
+  }
+}
+
+.whoDoes__figure {
+  margin: 0;
+  width: 100%;
+}
+
+.whoDoes__picture {
+  object-fit: contain;
+  width: 100%;
+}
+
+.whoDoes__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 630px;
+  width: 100%;
+  padding-left: 0;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes__info {
+    padding-left: 50px;
+    align-items: flex-start;
+  }
+}
+
+.whoDoes__info__title {
+  color: var(--color-h2);
+  font-family: var(--font-title);
+  font-size: var(--size-h3);
+  margin: 20px 0;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes__info__title {
+    margin: 0 0 20px 0;
+    font-size: var(--size-h2);
+  }
+}
+
+.whoDoes__info__subtitle {
+  font-family: var(--font-title);
+  font-size: var(--size-h4);
+  color: var(--color-h4);
+  margin-top: 15px;
+}
+
+.whoDoes__info__description {
+  font-family: var(--font-p);
+  font-size: var(--font-p);
+  color: var(--color-p);
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.whoDoes__team {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+
+  max-width: 1190px;
+  width: 100%;
+}
+
+.whoDoes__team-figure {
+  width: 165px;
+  margin: 5px;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes__team-figure {
+    margin: 5px 30px 5px 0;
+  }
+}
