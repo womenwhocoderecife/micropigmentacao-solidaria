@@ -1,10 +1,10 @@
-import daniela from '../assets/img/daniela.png'
-import yone from '../assets/img/yone.png'
-import woman1 from '../assets/img/woman1.png'
-import woman2 from '../assets/img/woman2.png'
-import facebook from '../assets/img/Facebook.svg'
-import instagram from '../assets/img/Instagram.svg'
-import twitter from '../assets/img/Twitter.svg'
+import daniela from '../../assets/imgs/daniela.png'
+import yone from '../../assets/imgs/yone.png'
+import woman1 from '../../assets/imgs/woman1.png'
+import woman2 from '../../assets/imgs/woman2.png'
+import facebook from '../../assets/icons/facebook.svg'
+import instagram from '../../assets/icons/instagram.svg'
+import twitter from '../../assets/icons/Twitter_.svg'
 
 const whoDoes = [
   {
