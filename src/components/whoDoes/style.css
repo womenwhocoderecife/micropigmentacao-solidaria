@@ -1,18 +1,3 @@
-:root {
-  --color-background: #f2f2f2;
-  --color-h2: #430307;
-  --color-h3: #430307;
-  --color-h4: #8e6769;
-  --color-p: #8e6769;
-  --color-border: #430307;
-  --size-h2: 50px;
-  --size-h3: 28px;
-  --size-h4: 21px;
-  --size-p: 16px;
-  --font-title: 'Nunito', sans-serif;
-  --font-p: 'Open Sans', sans-serif;
-}
-
 .whoDoes {
   background: var(--color-background);
   display: flex;
@@ -29,12 +14,13 @@
 }
 
 .whoDoes__title {
-  color: var(--color-h2);
-  font-family: var(--font-title);
+  color: var(--highlight-color);
+  font-family: var(--primary-font);
   font-size: var(--size-h2);
   margin-bottom: 80px;
   max-width: 1190px;
   width: 100%;
+  text-align: center;
 }
 
 .whoDoes__person {
@@ -81,8 +67,8 @@
 }
 
 .whoDoes__info__title {
-  color: var(--color-h2);
-  font-family: var(--font-title);
+  color: var(--highlight-color);
+  font-family: var(--primary-font);
   font-size: var(--size-h3);
   margin: 20px 0;
 }
@@ -95,16 +81,16 @@
 }
 
 .whoDoes__info__subtitle {
-  font-family: var(--font-title);
+  font-family: var(--primary-font);
   font-size: var(--size-h4);
-  color: var(--color-h4);
+  color: var(--primary-text-color);
   margin-top: 15px;
 }
 
 .whoDoes__info__description {
-  font-family: var(--font-p);
-  font-size: var(--font-p);
-  color: var(--color-p);
+  font-family: var(--secondary-font);
+  font-size: var(--secondary-font);
+  color: var(--primary-text-color);
   text-align: justify;
   margin-top: 20px;
   line-height: 2;
@@ -127,5 +113,18 @@
 @media (min-width: 1020px) {
   .whoDoes__team-figure {
     margin: 5px 30px 5px 0;
+  }
+}
+
+.whoDoes__icons {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media (min-width: 1020px) {
+  .whoDoes__icons {
+    width: 150px;
   }
 }

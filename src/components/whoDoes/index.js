@@ -28,17 +28,19 @@ const WhoDoes = () => {
             {whoDoes[data].description}
           </p>
 
-          <div className="whoDoes__body__text__icons">
+          <div className="whoDoes__icons">
             <img
               className="whoDoes__icon"
               src={whoDoes[data].twitterMedia.src}
               alt={whoDoes[data].twitterMedia.alt}
             />
+
             <img
               className="whoDoes__icon"
               src={whoDoes[data].facebookMedia.src}
               alt={whoDoes[data].facebookMedia.alt}
             />
+
             <img
               className="whoDoes__icon"
               src={whoDoes[data].instagramMedia.src}
