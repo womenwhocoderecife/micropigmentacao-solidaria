@@ -4,9 +4,9 @@ import './style.css'
 import whoDoesData from './data'
 
 const WhoDoes = () => {
-  const [data, SeData] = useState(0)
+  const [data, setData] = useState(0)
 
-  const handleClickData = index => SeData(index)
+  const handleClickData = index => setData(index)
 
   return (
     <section className="whoDoes">
