@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/micropigmentacao-solidaria/precache-manifest.46fb38164e91ed7c6c8ea78d86a5e0f6.js"
+  "/micropigmentacao-solidaria/precache-manifest.9c72fc31e07c96fc6f20a590877906e1.js"
 );
 
 self.addEventListener('message', (event) => {
