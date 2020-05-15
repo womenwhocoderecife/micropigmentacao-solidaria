@@ -1,0 +1,77 @@
+.impacted-women {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0%;
+
+}
+
+.impacted-women__title {
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 3.125em;
+  text-align: center;
+  color: var(--highlight-color);
+}
+
+@media (min-width: 375px) {
+  .impacted-women__title {
+    margin-bottom: 63px;
+  }
+}
+
+.impacted-women__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1092px) {
+  .impacted-women__container {
+    margin-bottom: 100px;
+  }
+}
+
+.impacted-women__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px 30px 20px;
+  margin-left: 0;
+}
+
+@media (min-width: 1092px) {
+  .impacted-women__content {
+    max-width: 450px;
+    margin-left: 50px;
+  }
+}
+
+.impacted-women__content__name {
+  max-width: 525px;
+  width: 100%;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: left;
+  color: var(--highlight-color);
+}
+
+.impacted-women__content__description {
+  max-width: 525px;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 30px;
+
+  text-align: justify;
+
+  color: var(--primary-text-color);
+}

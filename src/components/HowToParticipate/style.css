@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+
+.main_resources{
+    max-width: calc(1440px - 71px);
+    padding: 0px 74px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_resources .main_resources_header{
+    flex-basis: 100%;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.main_resources .main_resources_header h1{
+
+    color: #B76882;
+    font-size: 50px;
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+
+.main_resources article{
+
+    flex-basis: calc(33.3% - 71px);
+    margin-bottom: 30px;
+}
+
+
+.main_resources article .icon{
+    margin: 0 120px;
+}
+
+.main_resources article .category{
+
+    font-size: 24px;
+    color: #8E6769;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 31px;
+    text-align: center;
+}
+
+
+.main_resources article .description{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #8E6769;
+}
+
+@media (min-width: 750px) {
+    .main_resources {
+      justify-content: space-between;
+    }
+  }
