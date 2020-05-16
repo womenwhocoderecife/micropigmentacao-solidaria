@@ -30,48 +30,42 @@ class Header extends Component {
 
     const list = [
       {
-        item: "home",
+        item: "Home",
         link: "#home",
       },
       {
-        item: "sobre",
+        item: "Sobre",
         link: "#about",
       },
       {
-        item: "quem faz",
+        item: "Quem Faz",
         link: "#whoDoes",
       },
       {
-        item: "mulheres impactadas",
+        item: "Mulheres Impactadas",
         link: "#impactedWomen",
       },
       {
-        item: "como participar",
+        item: "Como Participar",
         link: "#howToParticipate",
       },
       {
-        item: "faq",
+        item: "FAQ",
         link: "#faq",
-      },
-      {
-        item: "como ajudar?",
-        link: "#howToHelp",
       },
     ];
 
     return (
       <div className="menu-container">
-        <button className="menu_hamburger" onClick={this.toggleMenu}>
-          {menuBtn}
-        </button>
+        <a className="menu_logo" href="#inicio">
+          <img className="menu_img" src={logo} alt="Logo Valentes e Bonitas" />
+        </a>
+        <div className="menu-mobile">
+          <button className="menu_hamburger" onClick={this.toggleMenu}>
+            {menuBtn}
+          </button>
+        </div>
         <nav className={`menu ${showMenu}`}>
-          <a className="menu_logo" href="#inicio">
-            <img
-              className="menu_img"
-              src={logo}
-              alt="Logo Valentes e Bonitas"
-            />
-          </a>
           <ul className="menu_list">
             {list.map((item) => (
               <li className="menu_list_item" key={Math.random()}>
@@ -80,6 +74,9 @@ class Header extends Component {
                 </a>
               </li>
             ))}
+            <li className="menu_list_item">
+								<a className="menu_list_link_help" href="#howToHelp">Como Ajudar?</a>
+							</li>
           </ul>
         </nav>
       </div>
