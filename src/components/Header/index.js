@@ -1,33 +1,63 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import './style.css'
-import logo from '../../assets/imgs/logo.svg'
+import "./style.css";
+import logo from "../../assets/imgs/logo.svg";
 
 class Header extends Component {
   constructor() {
-    super()
-    this.state = { open: false }
-
-    this.toggleMenu = this.toggleMenu.bind(this)
+    super();
+    this.state = { open: false };
+    this.toggleMenu = this.toggleMenu.bind(this);
   }
 
   toggleMenu(event) {
-    const { open } = this.state
-    this.setState({ open: !open })
+    const { open } = this.state;
+    this.setState({ open: !open });
   }
 
   render() {
-    let showMenu
-    let menuBtn
+    let showMenu;
+    let menuBtn;
 
     if (this.state.open) {
-      showMenu = ''
-      menuBtn = 'X'
+      showMenu = "";
+      menuBtn = "X";
     } else {
-      showMenu = 'menu_show'
-      menuBtn = '☰'
+      showMenu = "menu_show";
+      menuBtn = "☰";
     }
+
+    const list = [
+      {
+        item: "home",
+        link: "#home",
+      },
+      {
+        item: "sobre",
+        link: "#about",
+      },
+      {
+        item: "quem faz",
+        link: "#whoDoes",
+      },
+      {
+        item: "mulheres impactadas",
+        link: "#impactedWomen",
+      },
+      {
+        item: "como participar",
+        link: "#howToParticipate",
+      },
+      {
+        item: "faq",
+        link: "#faq",
+      },
+      {
+        item: "como ajudar?",
+        link: "#howToHelp",
+      },
+    ];
 
     return (
       <div className="menu-container">
@@ -43,46 +73,18 @@ class Header extends Component {
             />
           </a>
           <ul className="menu_list">
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#home">
-                home
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#about">
-                sobre
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#whoDoes">
-                quem faz
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#impactedWomen">
-                mulheres impactadas
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#howToParticipate">
-                como participar
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link" href="#faq">
-                faq
-              </a>
-            </li>
-            <li className="menu_list_item">
-              <a className="menu_list_link_help" href="#howToHelp">
-                como ajudar?
-              </a>
-            </li>
+            {list.map((item) => (
+              <li className="menu_list_item" key={Math.random()}>
+                <a className="menu_list_link" href={item.link}>
+                  {item.item}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
