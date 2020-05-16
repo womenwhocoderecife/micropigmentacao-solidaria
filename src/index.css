@@ -11,7 +11,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
 }
+
+html{
+  /* this defines what 1rem is --> font root size */
+  font-size: 62.5%; /* 10/16, 1rem = 10px; */
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
