@@ -1,8 +1,18 @@
 @font-face {
+  font-family: Nunito-Regular;
+  src: url(../../assets/fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
   font-family: Nunito-SemiBold;
   src: url(../../assets/fonts/Nunito-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Nunito-Bold;
+  src: url(../../assets/fonts/Nunito-Bold.ttf);
+  }
+  
 @font-face {
   font-family: Nunito-ExtraBold;
   src: url(../../assets/fonts/Nunito-ExtraBold.ttf);
@@ -12,16 +22,21 @@
   --highlight-color: #430307;
   --primary-text-color: #8e6769;
   --secondary-text-color: #b76882;
+  --color-border: #C2D1D9;
   --color-background: #f2f2f2;
+  --color-background-primary: rgba(142, 103, 105, 20%);
+
+  --nunito-regular: Nunito-Regular;
+  --nunito-semi-bold: Nunito-SemiBold;
+  --nunito-bold: Nunito-Bold;
+  --nunito-extra-bold: Nunito-ExtraBold;
 
   --primary-font: 'Nunito', sans-serif;
   --secondary-font: 'Open Sans', sans-serif;
 
-  --nunito-semi-bold: Nunito-SemiBold;
-  --nunito-extra-bold: Nunito-ExtraBold;
-
   --size-title: 1.4rem;
   --size-item: 1.4rem;
+  --size-h1: 6.4rem;
   --size-h2: 5rem;
   --size-p: 1.6rem;
   --size-h3: 2.8rem;

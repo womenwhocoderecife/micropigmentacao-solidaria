@@ -56,7 +56,7 @@ const Faq = () => {
       <h2>faq</h2>
     </header>
 
-    <ul className="faq_list">
+    <div className="faq_list">
       {
         faqs.map(faq => (
           <li className="faq_item"
@@ -70,7 +70,7 @@ const Faq = () => {
         )
       }
 
-    </ul>
+    </div>
 
   </section>);
 }
