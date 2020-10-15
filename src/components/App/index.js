@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import Hero from '../Hero'
 import About from '../About'
-import WhoDoes from '../WhoDoes'
+import whoDoes from '../whoDoes'
 import ImpactedWomen from '../ImpactedWomen'
 import Results from '../Result'
 import HowToParticipate from '../HowToParticipate'
@@ -15,7 +15,7 @@ const App = () => (
     <Header />
     <Hero />
     <About />
-    <WhoDoes />
+    <whoDoes />
     <ImpactedWomen />
     <Results />
     <HowToParticipate />

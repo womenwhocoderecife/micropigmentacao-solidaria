@@ -1,7 +1,7 @@
 .container_hero {
   width: 100%;
   height: 87vh;
-  background: url('../../assets/imgs/hero_max.png') center center/cover
+  background: url('../../assets/imgs/hero1.png') center center/cover
     no-repeat fixed padding-box rgba(67, 3, 7, 0.4);
   text-align: left;
   color: #ffffff;
