@@ -1,14 +1,21 @@
 import React from 'react'
-import Youtube from '@u-wave/react-youtube'
 
 import './style.css'
+
 
 const ImpactedWomen = () => (
   <section className="impacted-women">
     <h1 className="impacted-women__title">Mulheres Impactadas</h1>
 
     <div className="impacted-women__container">
-      <Youtube video="Vtb03-wwY3c" height="350" width="525" />
+      <iframe src='https://www.youtube.com/embed/Vtb03-wwY3c'
+        frameborder='0'
+        allow='autoplay; encrypted-media'
+        allowfullscreen
+        title='video'
+        height='350' 
+        width='525'
+      />
       <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Rose</h2>
         <p className="impacted-women__content__description">
@@ -21,7 +28,13 @@ const ImpactedWomen = () => (
     </div>
 
     <div className="impacted-women__container">
-      <Youtube video="rDvWnNJM5tE" height="350" width="525" />
+      <iframe src='https://www.youtube.com/embed/rDvWnNJM5tE'
+        frameborder='0'
+        allow='autoplay; encrypted-media'
+        allowfullscreen
+        title='video'
+        height='350' 
+        width='525'/>
       <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Jane</h2>
         <p className="impacted-women__content__description">

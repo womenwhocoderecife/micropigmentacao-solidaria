@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://womenwhocoderecife.github.io/micropigmentacao-solidaria/",
   "dependencies": {
-    "@u-wave/react-youtube": "^0.7.0",
     "gh-pages": "^2.2.0",
     "nan": "^2.14.1",
     "node-gyp": "^6.1.0",
