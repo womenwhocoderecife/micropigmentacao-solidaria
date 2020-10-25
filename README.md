@@ -27,8 +27,7 @@ Go to: [http://localhost:3000/](http://localhost:3000/)
 ## Tasks available
 
 - `$ npm start`: Start the development environment server.
-- `$ npm build`: Build for production.
-- `$ npm deploy`: Build for deploy.
+- `$ npm run deploy`: Build for deploy.
 
 ## Contributing
 
