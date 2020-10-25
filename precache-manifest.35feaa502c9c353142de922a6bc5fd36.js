@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f6680fb1452dbabacf4916622c3513d",
+    "revision": "58a716d92b70711239dc7a544091f13c",
     "url": "/micropigmentacao-solidaria/index.html"
   },
   {
-    "revision": "8dd6008a89b735f45f14",
+    "revision": "929228686b91016ab94d",
     "url": "/micropigmentacao-solidaria/static/css/2.5ffa1744.chunk.css"
   },
   {
-    "revision": "918a4ef8ed386c76cdb5",
-    "url": "/micropigmentacao-solidaria/static/css/main.1e1ef08a.chunk.css"
+    "revision": "68d328915b985584f8cc",
+    "url": "/micropigmentacao-solidaria/static/css/main.141f4478.chunk.css"
   },
   {
-    "revision": "8dd6008a89b735f45f14",
-    "url": "/micropigmentacao-solidaria/static/js/2.ffb0d132.chunk.js"
+    "revision": "929228686b91016ab94d",
+    "url": "/micropigmentacao-solidaria/static/js/2.7b55afa8.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/micropigmentacao-solidaria/static/js/2.ffb0d132.chunk.js.LICENSE.txt"
+    "url": "/micropigmentacao-solidaria/static/js/2.7b55afa8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "918a4ef8ed386c76cdb5",
-    "url": "/micropigmentacao-solidaria/static/js/main.8dbcae08.chunk.js"
+    "revision": "68d328915b985584f8cc",
+    "url": "/micropigmentacao-solidaria/static/js/main.b87f58a0.chunk.js"
   },
   {
     "revision": "7fab35766e307e893fb6",
@@ -88,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/micropigmentacao-solidaria/static/media/Nunito-Bold.1cd294a7.ttf"
   },
   {
+    "revision": "19caf1c06e022593ea4657734d691c86",
+    "url": "/micropigmentacao-solidaria/static/media/Nunito-ExtraBold.19caf1c0.ttf"
+  },
+  {
     "revision": "76ae20d4d4b7d46e613d2581512fcf73",
     "url": "/micropigmentacao-solidaria/static/media/Nunito-SemiBold.76ae20d4.ttf"
   },
@@ -108,16 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/micropigmentacao-solidaria/static/media/facebook.537e24dc.svg"
   },
   {
-    "revision": "0f59034e94ffe22908f86b1d81163545",
-    "url": "/micropigmentacao-solidaria/static/media/hamburger.0f59034e.svg"
-  },
-  {
     "revision": "1129c9a091f1b4f17045ab770749e78e",
     "url": "/micropigmentacao-solidaria/static/media/heart.1129c9a0.svg"
   },
   {
-    "revision": "e5a868cb28e6452ee00b2f3332013d78",
-    "url": "/micropigmentacao-solidaria/static/media/hero_max.e5a868cb.png"
+    "revision": "6a572ebf804fe55d7903a87b06aac712",
+    "url": "/micropigmentacao-solidaria/static/media/hero1.6a572ebf.png"
   },
   {
     "revision": "f1580010a7f9192f2c2dffc7299b7a36",
@@ -126,10 +126,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ac7fef1848a015ada70df7aba341889",
     "url": "/micropigmentacao-solidaria/static/media/logo.1ac7fef1.svg"
-  },
-  {
-    "revision": "8a25e27c89a8f5669e8eb82d2666559e",
-    "url": "/micropigmentacao-solidaria/static/media/logo.8a25e27c.png"
   },
   {
     "revision": "ff91e5aa7c1dceb8adb0b3e8a6c2bedd",
