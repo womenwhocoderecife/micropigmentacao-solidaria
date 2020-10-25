@@ -42,7 +42,7 @@ const Footer = () => (
       <div className="footer__list-group">
         <ul className="footer__list">
           {about.map(item => (
-            <li>
+            <li  key={item.text}>
               <a className={item.class} href={item.href}>
                 {item.text}
               </a>
@@ -52,7 +52,7 @@ const Footer = () => (
 
         <ul className="footer__list">
           {impacted.map(item => (
-            <li>
+            <li key={item.text}>
               <a className={item.class} href={item.href}>
                 {item.text}
               </a>
@@ -62,7 +62,7 @@ const Footer = () => (
 
         <ul className="footer__list">
           {contact.map(item => (
-            <li className={item.class}>{item.text}</li>
+            <li key={item.text} className={item.class}>{item.text}</li>
           ))}
         </ul>
       </div>
