@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 
 import foto1 from '../../assets/results/1.png'
 import foto2 from '../../assets/results/2.png'
@@ -19,26 +19,15 @@ import foto14 from '../../assets/results/14.png'
 
 import './style.css'
 
-
-
-const slideImages = [
-    
-    'assets/1.png',
-    'assets/2.png',
-    'assets/3.png',
-    'assets/4.png',
-    'assets/5.png',
-    'assets/6.png',
-    'assets/7.png',
-    'assets/8.png',
-    'assets/9.png',
-    'assets/10.png',
-    'assets/11.png',
-    'assets/12.png',
-    'assets/13.png',
-    'assets/14.png'
-
-];
+const images = [
+  {before: foto1, after: foto2},
+  {before: foto3, after: foto4},
+  {before: foto5, after: foto6},
+  {before: foto7, after: foto8},
+  {before: foto9, after: foto10},
+  {before: foto11, after: foto12},
+  {before: foto13, after: foto14},
+]
 
 const properties = {
   duration: 5000,
@@ -46,8 +35,6 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: true,
-  useKeyboardArrows: true,
-  emulateTouch: true,
   autoplay: false,
   
   onChange: (oldIndex, newIndex) => {
@@ -59,84 +46,25 @@ const properties = {
 const Results = () => {
     return (
       <div className="results_container">
-        <h1 class="title_results">Resultados</h1>
+        <h1 className="title_results">Resultados</h1>
 
         <div className="slide-container">
-        <Slide {...properties}>
-          <div className="each-slide">
+        <Fade {...properties}>
+          {images.map(({before, after, index}) => 
+          <div key={`${before}-${after}`} className="each-slide">
              <div className="antes_depois">
-              <img className="foto" src={foto1}/>
+              <img className="foto" src={before} alt="resultado da mama antes do procedimento"/>
               <h3 className= "before_after_results">Antes</h3>
              </div>
              <div className="antes_depois">
-              <img className="foto" src={foto2}/>  
+              <img className="foto" src={after} alt="resultado da mama depois do procedimento"/>  
               <h3 className= "before_after_results">Depois</h3>
               </div>
-          </div>
-          <div className="each-slide">
-            <div className="antes_depois">
-             <img className="foto" src={foto3}/>
-             <h3 className= "before_after_results">Antes</h3>
-            </div>
-            <div className="antes_depois">
-             <img className="foto" src={foto4}/>
-             <h3 className= "before_after_results">Depois</h3>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div className="antes_depois">
-             <img className="foto" src={foto5}/>
-             <h3 className= "before_after_results">Antes</h3>
-            </div> 
-            <div className="antes_depois">
-             <img className="foto" src={foto6}/>
-             <h3 className= "before_after_results">Depois</h3>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div className="antes_depois">
-             <img className="foto" src={foto7}/>
-             <h3 className= "before_after_results">Antes</h3>
-            </div> 
-            <div className="antes_depois">
-              <img className="foto" src={foto8}/>
-              <h3 className= "before_after_results">Depois</h3>
-            </div>
-          </div>
-          <div className="each-slide">
-           <div className="antes_depois">
-             <img className="foto" src={foto9}/>
-              <h3 className= "before_after_results">Antes</h3>
-            </div> 
-           <div className="antes_depois">
-            <img className="foto" src={foto10}/>
-            <h3 className= "before_after_results">Depois</h3>
-           </div>
-          </div>
-          <div className="each-slide">
-           <div className="antes_depois">
-             <img className="foto" src={foto11}/>
-              <h3 className= "before_after_results">Antes</h3>
-            </div> 
-            <div className="antes_depois"> 
-             <img className="foto" src={foto12}/>
-             <h3 className= "before_after_results">Depois</h3>
-            </div> 
-          </div>
-          <div className="each-slide">
-           <div className="antes_depois">
-             <img className="foto" src={foto13}/>
-              <h3 className= "before_after_results">Antes</h3>
-            </div> 
-            <div className="antes_depois"> 
-             <img className="foto" src={foto14}/>
-             <h3 className= "before_after_results">Depois</h3>
-            </div> 
-          </div>
-        </Slide>
+          </div>)}
+        </Fade>
       </div>
 
-        <p class="text_results">O conteúdo das imagens é de propriedade exclusiva do Projeto 
+        <p className="text_results">O conteúdo das imagens é de propriedade exclusiva do Projeto 
         Micropigmentação Solidária e seu uso foi autorizado pelas 
         usuárias. As fotografias são protegidas por leis de direito 
         patrimonial e não podem ser copiadas ou transmitidas
@@ -145,4 +73,3 @@ const Results = () => {
     )
 }
 export default Results
-
