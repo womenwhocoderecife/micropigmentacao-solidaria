@@ -8,16 +8,11 @@ const About = () => (
       <h2 className="about__text__title">Sobre Nós</h2>
 
       <p className="about__text__paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat incididunt ut laboret.
+      A Micropigmentação Solidária uma iniciativa do instituto Yone Mendes
+      Tem o objetivo de fazer a micropigmentação nas mulheres com câncer de mama,que não tem condições financeiras para investir em um tratamento de estética, no caso das mulheres, nessa situação há um abalo na autoestima, com esse projeto a ideia é devolver essa autoestima a essas guerreiras. 
       </p>
       <p className="about__text__paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat incididunt ut laboret.
+      Ajudamos mulheres que lamentavelmente passaram por essa terrível cirurgia, e assim devolver a elas sua auto-estima, sua feminilidade sua sexualidade, aliviando assim, um pouco de seu sofrimento. A técnica consiste em pigmentar a pele onde foi retirada a aréola devolvendo a mama um aspecto mais natural.
       </p>
     </div>
 

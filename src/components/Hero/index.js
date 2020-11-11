@@ -7,8 +7,8 @@ const Hero = () => (
     <section className = "content_hero">
       <h1 className="title_hero">Bonita é ser valente</h1>
       <p className="text_hero">
-        Lorem ipsum dolor sit amet, consectetur elit, sed do eiut labore et dolore
-        magna aliqua. Ut enim ad minim veniam.
+        Mulher bonita é a que bem se quer!
+        ame-se, toque-se, a prevenção é o melhor caminho.
       </p>
       <div className="link_hero" href="a">
         <p className="command_hero"> Scroll Down </p>
