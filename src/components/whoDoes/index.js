@@ -9,7 +9,7 @@ const WhoDoes = () => {
   const handleClickData = index => setData(index)
 
   return (
-    <section className="whoDoes">
+    <section className="whoDoes" id="whoDoes">
       <h1 className="whoDoes__title">Quem Faz</h1>
       <div className="whoDoes__person">
         <figure className="whoDoes__figure">

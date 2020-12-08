@@ -4,7 +4,7 @@ import './style.css'
 
 const HowToHelp = () => (
 
-<div className="main_cta">
+<div className="main_cta" id="howToHelp">
     <article className="main_cta_content">
         <div>
         <header>

@@ -3,7 +3,7 @@ import './style.css'
 import about from '../../assets/imgs/about.png'
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <div className="about__text">
       <h2 className="about__text__title">Sobre Nós</h2>
 

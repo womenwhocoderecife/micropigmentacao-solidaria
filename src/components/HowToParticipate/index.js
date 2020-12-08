@@ -7,7 +7,7 @@ import heart from '../../assets/imgs/heart.svg'
 
 const HowToParticipate = () => (
 
-    <section className="main_resources">
+    <section className="main_resources" id="howToParticipate">
 
        <header className="main_resources_header">
            <h1>Como Participar</h1>

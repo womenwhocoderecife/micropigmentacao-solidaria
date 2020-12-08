@@ -1,7 +1,5 @@
 import daniela from '../../assets/imgs/daniela.png'
 import yone from '../../assets/imgs/yone.png'
-import woman1 from '../../assets/imgs/woman1.png'
-import woman2 from '../../assets/imgs/woman2.png'
 import facebook from '../../assets/icons/facebook.svg'
 import instagram from '../../assets/icons/instagram.svg'
 import twitter from '../../assets/icons/Twitter_.svg'

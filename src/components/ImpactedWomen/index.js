@@ -4,7 +4,7 @@ import './style.css'
 
 
 const ImpactedWomen = () => (
-  <section className="impacted-women">
+  <section className="impacted-women" id="impactedWomen">
     <h1 className="impacted-women__title">Mulheres Impactadas</h1>
 
     <div className="impacted-women__container">

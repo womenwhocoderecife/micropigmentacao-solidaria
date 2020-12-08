@@ -50,7 +50,7 @@ const Faq = () => {
     }
   ];
 
-  return (<section className="faq" >
+  return (<section className="faq" id="faq">
 
     <header className="faq_header">
       <h2>faq</h2>
