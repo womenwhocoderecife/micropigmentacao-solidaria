@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 
-import './style.css'
-
+import "./style.css";
 
 const ImpactedWomen = () => (
   <section className="impacted-women" id="impactedWomen">
     <h1 className="impacted-women__title">Mulheres Impactadas</h1>
 
     <div className="impacted-women__container">
-      <iframe src='https://www.youtube.com/embed/Vtb03-wwY3c'
-        frameborder='0'
-        allow='autoplay; encrypted-media'
-        allowfullscreen
-        title='video'
-        height='350' 
-        width='525'
+      <iframe
+        src="https://www.youtube.com/embed/Vtb03-wwY3c"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="video"
+        height="350"
+        width="525"
       />
       <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Rose</h2>
@@ -28,13 +28,15 @@ const ImpactedWomen = () => (
     </div>
 
     <div className="impacted-women__container">
-      <iframe src='https://www.youtube.com/embed/rDvWnNJM5tE'
-        frameborder='0'
-        allow='autoplay; encrypted-media'
-        allowfullscreen
-        title='video'
-        height='350' 
-        width='525'/>
+      <iframe
+        src="https://www.youtube.com/embed/rDvWnNJM5tE"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="video"
+        height="350"
+        width="525"
+      />
       <div className="impacted-women__content">
         <h2 className="impacted-women__content__name">Jane</h2>
         <p className="impacted-women__content__description">
@@ -45,6 +47,6 @@ const ImpactedWomen = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default ImpactedWomen
+export default ImpactedWomen;
