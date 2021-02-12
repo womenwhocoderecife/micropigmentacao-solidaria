@@ -2,7 +2,6 @@
   "name": "micropigmentacao-solidaria",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://womenwhocoderecife.github.io/micropigmentacao-solidaria/",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "nan": "^2.14.1",
