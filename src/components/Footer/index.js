@@ -23,14 +23,14 @@ const Footer = () => (
         </li>
         <div className="footer__social-media">
           <li>
-            <a href="#">
+            <a href="#home">
               <figure className="footer__figure__logo">
                 <img src={facebook} alt="logo do facebook" />
               </figure>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#home">
               <figure className="footer__figure__logo">
                 <img src={instagram} alt="logo do instagram" />
               </figure>
