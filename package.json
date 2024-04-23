@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^5.0.0",
     "nan": "^2.14.1",
     "node-gyp": "^6.1.0",
     "react": "^16.14.0",
